@@ -1,0 +1,180 @@
+.Findlocation {
+    padding-top: 2%;
+    .maxwidth {
+      max-width: 1920px;
+      padding: 0;
+    }
+    .heading-section {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      padding-top: 60px;
+    
+    }
+    .country-list {
+      position: relative;
+      padding: 50px 65px;
+      background-color: #212121 ;    
+      margin: 0 auto;
+      
+      .Our-Offices {
+        // padding: 25px 15px;
+       
+        padding: 25px 15px;
+        h1, h2 {
+          font: normal normal normal 22px/27px Helvetica-Neue-Bold;
+          letter-spacing: 0px;
+          color: #000000;
+          // opacity: 0.5;
+          @media (max-width: 768px) {
+            font-size: 27.86px;
+            line-height: normal;
+          }
+        }
+        p{
+            padding-top: 20px;
+            font: normal normal 1rem/20px Helvetica Neue;
+            opacity: 0.5;
+            color: #fff;
+        }
+      }
+    }
+  
+  
+    .map-section{
+      padding-bottom: 50px;
+    }
+    .form-group {
+      padding-bottom: 1rem;
+      margin: 20px 0;
+    }
+    .country{
+      padding-right: 0;
+    }
+     
+  .ContactForm .heading h2,
+  .MoreEnquires .heading h2 {
+    font-size: 22px;
+    color: #fff;
+    margin: 30px 0px;
+  }
+  .ContactForm .floating-label {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    
+  }
+  .ContactForm .user_input_wrp .floating-label {
+    padding-left: 10px;
+  }
+  .ContactForm .inputText {
+    padding-left: 5px;
+    background-color: inherit;
+  }
+  
+ 
+  
+  .ContactFormpage-sec {
+    padding: 60px 0;
+    // .maxwidth {
+    //   max-width: 1083px;
+    //   margin: 0 auto;
+    // }
+  
+    .heading {
+      
+      label {
+        
+        font: normal normal normal 1rem/16px Helvetica-Neue;
+        letter-spacing: 0.42px;
+        color: #000000;
+        opacity: 0.56;
+      }
+    }
+    .form-group {
+      padding-bottom: 1rem;
+      margin: 20px 0;
+    }
+  
+  
+  }
+    
+      .sedar-btn {         
+        margin-top: 20px;       
+      }
+      .sedar-location{
+        font: normal normal normal 1.1rem Helvetica-Neue-Medium;
+        text-align: center;
+        color: #fff;
+        padding: 1rem;      
+        margin-top: 20px;
+        background: #212121 0% 0% no-repeat padding-box;
+        box-shadow: 4px 0px 6px #00000007;
+        opacity: 1;
+        border: 1px solid #fff;
+        width: 100%;
+        
+
+      }
+      .form-control {
+        color: #fff;
+        background-color: #0000;
+       
+      }
+      .map{
+        padding-left: 0;
+      }
+      .or_text{
+        p{
+          color: #fff;
+          padding-top: 10px;
+        }
+     }
+     .store{
+       display: flex;
+      p {
+        font: normal normal normal 1rem/17px Helvetica-Neue-Medium;
+        letter-spacing: 0.28px;
+        color: #919191;
+        opacity: 1;
+        padding:20px;
+       
+      }
+      span {
+        padding-top: 15px;
+        a{
+          font: normal normal 1rem/17px Helvetica-Neue;
+          /* letter-spacing: 0.42px; */
+          color: #FFFFFF;
+          opacity: 1;
+          border-bottom: 2px solid #fdcc5d;
+        }
+       
+      }
+  }
+
+      
+    
+  }
+  @media (max-width: 767px) { 
+  
+    .country{
+      order: 1;
+    }
+    .HomePageOurPresence .heading-section h1{
+        font: normal normal 600 25px/49px Helvetica-Neue;
+       
+      
+    }
+    .Findlocation .country {
+      padding: 0;
+    }
+    .Findlocation .country-list {
+           padding: 25px;
+        }
+    .map {
+      display: none;
+    }
+
+}
+

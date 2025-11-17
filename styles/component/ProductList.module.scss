@@ -1,0 +1,191 @@
+.ProductList {
+  position: relative;
+  .productimgslider {
+    .swiper-slide {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .breadcrumb {
+    //font: normal normal normal 0.875rem/34px Helvetica-Neue;
+    font: normal normal normal 1rem/34px Helvetica-Neue;
+    letter-spacing: 0.42px;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    font-size: 14px;
+    color: #656565;
+    opacity: 1;
+    background: #fff;
+    a {
+      color: #656565;
+    }
+  }
+  .productName {
+    font: normal normal bold 24px/28px Helvetica-Neue;
+    letter-spacing: 0px;
+    color: #0a0a0a;
+    opacity: 1;
+
+    h1,h2 {
+      //font-size: 27.86px;
+      font-size: 24px;
+    }
+  }
+  .productPrice {
+    .pricelabel {
+      font: normal normal normal 12px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 0.39;
+    }
+    .price {
+      //font: normal normal bold 1.875rem Helvetica-Neue;
+      font: normal normal normal 30px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #ff7600;
+      opacity: 1;
+    }
+    .pricesave {
+      del {
+        text-decoration: line-through;
+        //font: normal normal normal 0.875rem Helvetica-Neue;
+        font: normal normal normal 1rem Helvetica-Neue;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 0.58;
+      }
+      span {
+        //font: normal normal normal 0.875rem Helvetica-Neue;
+        font: normal normal normal 1rem Helvetica-Neue;
+        letter-spacing: 0px;
+        color: #001389;
+        opacity: 1;
+      }
+    }
+  }
+  .card-body {
+    padding: 15px;
+    @media (max-width: 576px) {
+      padding: 10px;
+    }
+  }
+  .product_button {
+    .btn_one {
+      background: #fdcc5d 0% 0% no-repeat padding-box;
+      font: normal normal normal 15px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #000000;
+      @media screen and (max-width: 576px) {
+        font-size: 14px;
+        line-height: normal;
+        color: #fff;
+      }
+    }
+    .btn_two {
+      background: #4a419f 0% 0% no-repeat padding-box;
+      font: normal normal normal 15px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #ffffff;
+      @media screen and (max-width: 576px) {
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
+    .btn_single {
+      background: #803fb7 0% 0% no-repeat padding-box;
+      font: normal normal normal 15px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+    button {
+      padding: 16px 5px;
+    }
+    a {
+      padding: 16px 5px;
+    }
+    @media screen and (max-width: 400px) {
+      .w400 {
+        width: 100%;
+        padding: 5px 0.8rem !important;
+      }
+      .btn_singleCol {
+        padding: 0 12px !important;
+      }
+    }
+  }
+  .shortfeatures {
+    h5 {
+      //font: normal normal 600 0.9375rem/65px Helvetica-Neue;
+      font: normal normal 600 15/65px Helvetica-Neue;
+      color: #333333;
+    }
+    p,
+    span {
+      font: normal normal normal 15px/22px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #333333;
+    }
+    //.list {
+    //  margin-left: 20px;
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      //font: normal normal normal 0.9375rem/22px Helvetica-Neue;
+
+      font: normal normal normal 15px/22px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #333333;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      list-style-image: url("../../public/assets/icon/2089713.png");
+    }
+    //}  '../../../public/assets/icon/2089713.png'
+    .list_link {
+      text-decoration: underline;
+      //font: normal normal normal 0.9375rem/22px Helvetica-Neue;
+      font: normal normal normal 15px/22px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #ef9c00;
+    }
+
+    a {
+      color: var(--unnamed-color-ef9c00);
+
+      text-decoration: underline;
+      font: normal normal normal 15px/22px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #ef9c00;
+      opacity: 1;
+    }
+  }
+  .quickstep {
+    position: relative;
+
+    .quickstepcontent {
+      position: relative;
+      padding: 10px 0;
+
+      img {
+        max-width: 23px;
+      }
+      p {
+        cursor: pointer;
+      }
+    }
+    p {
+      //font: normal normal normal 0.875rem/16px Helvetica-Neue;
+      font: normal normal normal 1rem/16px Helvetica-Neue;
+      letter-spacing: 0px;
+      color: #616c7b;
+      display: inline;
+      padding-left: 10px;
+    }
+  }
+}
+.ProductListCardView {
+  position: relative;
+  padding-bottom: 1rem;
+}

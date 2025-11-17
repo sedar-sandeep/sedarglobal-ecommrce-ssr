@@ -1,0 +1,84 @@
+.TipsThreads {
+  padding-bottom: 4rem;
+  .TipsThreadsCollection {
+    max-width: 1394px;
+  }
+  .TipsThreads-title {
+    letter-spacing: 1.28px;
+    padding: 5px 0 5px 22px;
+  }
+  .TipsThreads-title-all {
+    text-align: right;
+    border-bottom: 2px solid #fdcc5d;
+    letter-spacing: 0.45px;
+    color: #434343;
+    font-size: 15px;
+    float: right;
+    font-family: "Helvetica-Neue-Medium";
+    padding-top: 10px;
+  }
+
+  .TipsThreads-text {
+    padding: 100px;
+  }
+  .TipsThreads-heading {
+    padding-top: 105px;
+    @media (max-width: 768px) {
+      padding: 1rem 0;
+    }
+  }
+
+  .TipsThreads-txt {
+    color: #989898;
+    padding: 5px 0 5px 22px;
+  }
+
+  .TipsThreads-details p {
+    border-left: 2px solid #ffd64f;
+    padding-left: 22px;
+    width: 70%;
+    margin-top: 20px;
+    font: normal normal 1.27rem/25px Helvetica-Neue-Medium;
+    letter-spacing: 0.18px;
+  }
+  .TipsThreads-details {
+    padding-top: 1rem;
+    align-items: center;
+    .Collection-text.col-md-6.col-sm-12:last-child {
+      max-width: 562px;
+      margin-left: auto;
+      padding-top: 10px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .TipsThreads {
+    padding-bottom: 0px;
+  }
+
+  .TipsThreads .TipsThreads-details p {
+    width: 95%;
+  }
+  .TipsThreads-title-all {
+    display: none;
+  }
+  .More_Stories {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .More_story {
+    text-align: right;
+    border-bottom: 2px solid #fdcc5d;
+    letter-spacing: 0.45px;
+    color: #434343;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Helvetica-Neue-Medium";
+  }
+}
+@media (min-width: 768px) {
+  .More_story {
+    display: none;
+  }
+}

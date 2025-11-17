@@ -1,0 +1,135 @@
+.ContactForm-sec {
+  //     background-repeat: no-repeat;
+  //    // background-image: url("http://localhost:3000/assets/images/Rectangle 1074.png`});
+  //     background-size: 100% 100%;
+  //     margin: auto;
+  //     width: 90%;
+  //     padding: 10px 0px;
+  background-color: #f7f7f7;
+  position: relative;
+  color: #000;
+
+  .form-check-input {
+    margin-top: 0.3rem !important;
+  }
+}
+
+.ContactForm .heading h2,
+.MoreEnquires .heading {
+  font-size: 22px;
+  color: #000;
+  margin: 30px 0px;
+  @media (max-width: 576px) {
+    margin: 5px 0px;
+  }
+}
+.ContactForm .floating-label {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #000;
+  opacity: 1;
+}
+.ContactForm .user_input_wrp .floating-label {
+  padding-left: 10px;
+}
+.ContactForm .inputText {
+  padding-left: 5px;
+  background-color: inherit;
+}
+
+.MoreEnquires .enquire_type img {
+  margin-right: 15px;
+  padding-right: 30px;
+  @media (max-width: 576px) {
+    padding-right: 10px;
+  }
+}
+.MoreEnquires .enquire_type .title {
+  font-weight: bold;
+  font-size: 13px;
+}
+.MoreEnquires .enquire_type .title span {
+  opacity: 0.45;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.ContactForm-sec {
+  padding: 60px 0;
+  .maxwidth {
+    max-width: 1083px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    h2 {
+      border-left: 2px solid #ffd64f;
+      padding-left: 20px;
+    }
+  }
+  .form-group {
+    margin: 20px 0;
+  }
+  .orange_color_bg {
+    font: normal normal normal 15px/25px Helvetica-Neue-Bold;
+    letter-spacing: 0px;
+    color: #000000;
+    background-color: #fdcc5d;
+  }
+}
+
+.MoreEnquires-sec {
+  background-color: #fff;
+  position: relative;
+  margin: 35px 0;
+  padding: 15px;
+  @media (max-width: 1440px) {
+    padding: 15px;
+  }
+  .maxwidth {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .MoreEnquires {
+    padding-bottom: 50px;
+  }
+  .heading {
+    h2 {
+      font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    //  padding-bottom: 50px;
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 2rem;
+        line-height: normal;
+      }
+      padding: 0 0 20px 0;
+    }
+  }
+  .enquire_type {
+    border-bottom: 1px solid #7070704c;
+    padding: 35px 35px 35px 0;
+    @media (max-width: 576px) {
+      padding: 20px 0px 20px 0;
+    }
+    .title {
+      display: inline-block;
+      a {
+        text-decoration: underline;
+        font: normal normal 500 12px/19px Helvetica-Neue;
+        letter-spacing: 0px;
+        color: #ef9c00;
+      }
+    }
+    .desc {
+      p {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        color: #000000;
+      }
+    }
+  }
+}

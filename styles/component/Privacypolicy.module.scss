@@ -1,0 +1,28 @@
+.Privacypolicy {
+    margin-bottom: 10rem;
+    .max-content{
+        max-width: 1140px;
+    }
+   
+    .col-first{
+        h1{
+            font-weight: bold;
+            padding-top: 30px;
+        }
+        h3{
+            padding-top: 30px ;
+        }
+        p{
+            color: #5a5a5a;
+            font-size: 16px;
+            padding-top: 30px;
+            font: normal normal 1rem Helvetica-Neue-Light; 
+            @media (min-width:576px) {
+                font: normal normal 1.2rem/31px Helvetica-Neue-Light; 
+            }
+                
+           
+           }
+    }
+  
+}

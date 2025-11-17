@@ -1,0 +1,261 @@
+.formaddedit {
+  .color-button {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 6px;
+
+    .sub_btn {
+      background-color: #fdcc5d;
+      display: block;
+      text-align: center;
+      padding: 7px 1rem;
+      border-radius: 0px;
+    }
+    span {
+      font: normal normal 300 15px/18px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #282c3f;
+    }
+  }
+  .floating-field {
+    label {
+      font: normal normal normal 1.1rem/18px Helvetica-Neue-Medium;
+    }
+  }
+  .floating-field,
+  .position-relative {
+    margin: 33px 0 10px 0;
+  }
+  .react-tel-input {
+    margin-top: 6%;
+  }
+
+  .form-group {
+    margin-bottom: 2.5rem;
+    margin-top: 5px;
+    input,
+    select {
+      font: normal normal 500 15px/18px Helvetica-Neue;
+      letter-spacing: 0.3px;
+      color: #000000;
+      &.form-control::placeholder {
+        color: #000000;
+      }
+    }
+  }
+  .heading {
+    p {
+      color: #282c3f;
+      font: normal normal 300 1rem/15px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+    }
+  }
+  .addressheading {
+    p {
+      color: #81869d;
+      font: normal normal 300 15px/40px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+    }
+  }
+  .addresstype {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input,
+    select,
+    label {
+      font: normal normal 500 15px/18px Helvetica-Neue;
+      letter-spacing: 0.3px;
+      color: #000000;
+      &.form-control::placeholder {
+        color: #000000;
+      }
+    }
+    input[type='radio']:checked + label {
+      color: #ef9c00;
+    }
+    input[type='radio']:checked {
+      &:before {
+        border-color: #fbc52d;
+      }
+      &::after {
+        background-color: #fbc52d;
+      }
+    }
+  }
+  .notice {
+    .form-check-label {
+      color: #7d808b;
+      font: normal normal 500 15px/18px Helvetica-Neue;
+    }
+  }
+  .close-button {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #282c3f;
+  }
+  .submit_btn {
+    background-color: #fdcc5d;
+    display: block;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 0px;
+    width: 100%;
+  }
+}
+
+.removealert {
+  text-align: center;
+  .border-button {
+    position: relative;
+    width: 100%;
+    max-width: 128px;
+    display: inline-block;
+    margin-top: 15px;
+    margin: 10px 15px;
+    .remove_btn,
+    a {
+      border: 1px solid #cacbd0;
+      border-radius: 4px;
+      display: block;
+      text-align: center;
+      padding: 3px 0px;
+      width: 100%;
+    }
+    .remove_btn {
+      padding: 5px;
+      background: #fff;
+    }
+    span {
+      font: normal normal 300 1rem/17px Helvetica-Neue-Bold;
+      border-radius: 0px !important;
+      letter-spacing: 0px;
+      color: #282c3f;
+      font-size: 14px !important;
+    }
+  }
+  .alerttext {
+    p {
+      color: #282c3f;
+      font: normal normal 300 1.15rem/40px Helvetica-Neue;
+      font-size: 16.1px;
+      letter-spacing: 0px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.otp_input {
+  > div {
+    justify-content: space-between;
+  }
+  .otp_value {
+    justify-content: space-between;
+  }
+  input {
+    width: 80% !important;
+    height: 2em !important;
+    border: none;
+    border-bottom: 1px solid #838282;
+  }
+}
+.delivery_page {
+  font-size: 16px;
+  .delivery {
+    padding: 5px 25px;
+  }
+  .shipment_section {
+    border-bottom: 1px solid #b8b8b8;
+    padding: 6px;
+    margin: 5px 10px;
+    width: 90%;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .inst_not_aval {
+    font: normal normal normal 0.8rem/18px Helvetica-Neue;
+    letter-spacing: 0px;
+    color: #ef9c00;
+    padding-left: 22px;
+  }
+  .close_icon {
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+  .form-check .form-check-input {
+    // margin: 5px 8px 0px 0px !important;
+  }
+  .holiday_cls {
+    font: normal normal normal 1rem/20px Helvetica-Neue;
+    letter-spacing: 0px;
+    color: #ef9c00;
+    padding-left: 22px;
+  }
+}
+
+.PhoneInputInput {
+  padding: 1px 0;
+}
+.search_button {
+  background-color: #ffd560 !important;
+  display: block;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 0px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+.city_with_state {
+  z-index: 10;
+  .css-13cymwt-control {
+    border: none;
+    
+
+  }
+  
+}
+.province_desc {
+  font-size: 0.8rem !important;
+  color: rgba(var(--bs-body-color-rgb), 0.65);
+  font-weight: normal;
+}
+.label_top {
+  top: -1rem !important;
+  font-size: 0.8rem !important;
+}
+#react-select-3-listbox {
+  background-color: #fff !important;
+  z-index: 10;
+}
+.city_with_state_contact_form .css-13cymwt-control ,.css-t3ipsp-control{
+ 
+  position: relative;
+  top: 20px;
+  box-shadow: none !important;
+  &:hover{
+
+    border-color: transparent !important;
+  }
+
+}
+
+.css-hlgwow{
+  display: flex !important;
+}
+.city_area_label {
+  left: 10px !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  transition: 0.2s ease all !important;
+  -moz-transition: 0.2s ease all !important;
+  -webkit-transition: 0.2s ease all !important;
+  z-index: 1 !important;
+  top: -35% !important;
+  font-size: 13px !important;
+}

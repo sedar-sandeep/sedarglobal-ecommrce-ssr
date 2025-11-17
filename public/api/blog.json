@@ -1,0 +1,18 @@
+{
+   "data":{
+      "children":[
+         {
+            "data":{
+               "subreddit":"Component/BlogPage/BlogPage",
+               "title":"BlogPage"
+            }
+         },         
+         {
+            "data":{
+               "subreddit":"Component/FooterAnnouncement/FooterAnnouncement",
+               "title":"FooterAnnouncement"
+            }
+         }      
+      ]
+   }
+}

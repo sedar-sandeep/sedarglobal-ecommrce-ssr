@@ -1,0 +1,46 @@
+.LoaderComponent {
+}
+
+.LineLoader {
+  max-width: 100%;
+  position: relative;
+
+  .progress {
+    background: #cccccc;
+    justify-content: flex-start;
+    border-radius: 0;
+    align-items: center;
+    position: relative;    
+    display: flex;
+    height: 4px;
+    width: 100%;
+  }
+
+  .progress-value {
+    border-radius: 0;
+    background: #ffc107;
+    height: 4px;
+    width: 0;
+  }
+
+  @keyframes load {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
+
+.CircleLoader {
+  max-width: fit-content;
+  position: relative;
+  .arrowPosition {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}

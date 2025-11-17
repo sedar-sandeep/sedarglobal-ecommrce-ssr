@@ -1,0 +1,28 @@
+.ProjectCategoryGroupBanner {
+  position: relative;
+  .overly {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.45;
+  }
+  .breadcrumb {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    
+    font: normal normal normal 1rem/34px Helvetica-Neue;
+    letter-spacing: 0.42px;
+    color: #ffffff;
+    background: transparent;
+    a{
+      font: normal normal normal 1rem/34px Helvetica-Neue;
+    letter-spacing: 0.42px;
+    color: #ffffff;
+    }
+  }
+}
+
+

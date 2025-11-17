@@ -1,0 +1,98 @@
+.WishList {
+  position: relative;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  .breadcrumb {
+    font: normal normal normal 1rem Helvetica-Neue;
+    letter-spacing: 0.42px;
+    color: #656565;
+    opacity: 1;
+    background: #fff;
+    a {
+      color: #656565;
+    }
+  }
+  .divSpan {
+    font: normal normal normal 1rem/16px Helvetica-Neue-Bold;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .cardHeading {
+    h3 {
+      font: normal normal normal 2.44rem/41px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #000000;
+      text-align: center;
+    }
+  }
+  h3 {
+    font-family: Helvetica-Neue-Medium;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+
+    color: #000000;
+    span {     
+      margin: 0px;
+      font-size: 30px;
+      font-weight: 300;
+      font-family: Helvetica-Neue-Light;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.13;
+      letter-spacing: normal;
+
+      color: #000000;
+    }
+  }
+  .card {
+    border-color: #ef9c00;
+    min-height: 100%;
+  }
+  .wishBoardNum {
+    font: normal normal normal 1.88rem/30px Helvetica-Neue-Bold;
+    letter-spacing: 0.5px;
+    color: #ff9300;
+    padding: 5px 0;
+  }
+  .wishBoardText {
+    //padding: 10px;
+    &.last {      
+      @media (min-width: 576px) {
+        margin-top: -2rem;
+      }
+    }
+  }
+  .wishBoardBottomText {
+    font: normal normal normal 1.3rem/23px Helvetica-Neue-Medium;
+    letter-spacing: 0.18px;
+    color: #15181a;
+    padding-top: 10px;
+  }
+  .centerBox {
+    border: 1px dashed #ff9300;   
+    img {
+      // max-width: 20%;
+    }
+  }
+  .smallText {
+    font: normal normal normal 9px/11px Helvetica-Neue-Medium;
+    letter-spacing: 0.09px;
+    color: #15181a;
+    opacity: 0.21;
+  }
+  .gridGroup {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+  .rounded-md-0 {
+    @media (min-width: 576px) {
+      border-radius: 0;
+    }
+  }
+  
+}

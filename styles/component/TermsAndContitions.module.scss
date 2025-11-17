@@ -1,0 +1,40 @@
+.TermsAndContitions {
+  padding-bottom: 10rem;
+  .max-content {
+    max-width: 1140px;
+  }
+  .col-first {
+    h1 {
+      font-weight: bold;
+      padding-top: 30px;
+    }
+    h3 {
+      padding-top: 30px;
+    }
+    p {
+      color: #5a5a5a;
+      font: normal normal 1rem Helvetica-Neue-Light;
+      @media (min-width: 576px) {
+        font: normal normal 1.2rem/31px Helvetica-Neue-Light;
+      }
+    }
+    ul {
+      padding: 0 15px;
+      color: #5a5a5a;
+      font: normal normal 1rem Helvetica-Neue-Light;
+      @media (min-width: 576px) {
+        font: normal normal 1.2rem/31px Helvetica-Neue-Light;
+      }
+    }
+  }
+  .cartPage_term_condition {
+    font-size: 1.1rem;
+    strong {
+      color: #000;
+      font-weight: bold;
+    }
+    ul {
+      padding-left: 25px;
+    }
+  }
+}

@@ -1,0 +1,240 @@
+.Footer3 {
+  a {
+    text-decoration: none !important;
+  }
+
+  .footer_main_contact {
+    border-top: 1px solid rgba(119, 127, 142, 0.1);
+    border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+    align-items: center;
+    padding: 15px 0;
+    margin: 0;
+
+    .number,
+    .email {
+      label {
+        font-size: 14px;
+        color: #adadad;
+
+        line-height: 1.14;
+      }
+
+      p {
+        font-size: 18px;
+        color: #e3e3e3;
+
+        line-height: 1.17;
+      }
+    }
+
+    .number {
+      padding-left: 2.2rem;
+    }
+  }
+
+  .payment_method {
+    ul {
+      height: 100%;
+      align-items: center;
+      width: 84%;
+      justify-content: space-between;
+
+      li {
+        padding-right: 20px;
+
+        img {
+          min-width: 35px;
+        }
+      }
+    }
+  }
+
+  .contact_social {
+    padding: 0;
+
+    ul {
+      height: 100%;
+      align-items: center;
+      justify-content: space-between;
+
+      li {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+  /* CSS */
+}
+
+@media (min-width: 1201px) and (max-width: 1499px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+ 
+*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+ 
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  
+*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+ 
+*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .Footer3 {
+    .footer_main_contact {
+      border-top: none;
+      border-bottom: none;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+
+      .number,
+      .email {
+        label {
+          font-size: 1rem;
+          color: #adadad;
+
+          line-height: 1.14;
+        }
+
+        p {
+          font-size: 18px;
+          color: #ffffff;
+
+          line-height: 1.17;
+        }
+      }
+
+      .number {
+        margin-left: auto;
+        padding: 15px;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+        border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+      }
+
+      .email {
+        margin-left: auto;
+        padding: 15px;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+        border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+      }
+    }
+
+    .payment_method {
+      padding: 28px 0;
+      border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+      ul {
+        justify-content: space-around;
+
+        li {
+          padding-right: 20px;
+        }
+      }
+    }
+
+    .contact_social {
+      margin-left: 0;
+      padding: 28px 0;
+      border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+      ul {
+        justify-content: space-around;
+
+        li {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+  /* CSS */
+  .Footer3 {
+    .footer_main_contact {
+      border-top: none;
+      border-bottom: none;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+
+      .number,
+      .email {
+        label {
+          font-size: 1rem;
+          color: #adadad;
+          font-size: 14px;
+
+          line-height: 1.14;
+        }
+
+        p {
+          font-size: 18px;
+          color: #ffffff;
+
+          line-height: 1.17;
+        }
+      }
+
+      .email {
+        margin-left: auto;
+        padding: 20px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+        border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+      }
+
+      .number {
+        margin-left: auto;
+        padding: 20px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+      }
+    }
+
+    .payment_method {
+      padding: 30px 0;
+      border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+      ul {
+        justify-content: space-around;
+
+        li {
+          padding-right: 20px;
+        }
+      }
+    }
+
+    .contact_social {
+      margin-left: 0;
+      padding: 28px 0;
+      border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+      ul {
+        justify-content: space-around;
+
+        li {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}

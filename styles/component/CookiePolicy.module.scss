@@ -1,0 +1,46 @@
+.CookiePolicy {
+    padding-bottom: 10rem;
+    .max-content {
+      max-width: 1140px;
+    }
+  
+    .col-first {
+      h1 {
+        font-weight: bold;
+        padding-top: 30px;
+      }
+      h3 {
+        padding-top: 30px;
+      }
+      p {
+        color: #5a5a5a;
+        padding-top: 30px;
+        font: normal normal 1rem Helvetica-Neue-Light;
+        @media (min-width: 576px) {
+          font: normal normal 1.2rem/31px Helvetica-Neue-Light;
+        }
+      }
+    }
+  }
+  .CookiePopup {
+    position: fixed;
+    bottom: 0;
+    z-index: 112;
+    width: 100%;
+    background: #fff;
+    font-size: 15px;
+    box-shadow: 0px 6px 12px rgba(49, 49, 49, 0.75);
+    .cookieNotice {
+      padding: 15px;
+    }
+    .color-button .accept-button {
+      background-color: #ffd560;
+      display: block;
+      text-align: center;
+      padding: 12px 30px;
+      border-radius: 0px;
+      border: none;
+      width: 100%;
+    }
+  }
+  

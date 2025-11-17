@@ -1,0 +1,25 @@
+.VideoModal {
+  &.modal-80w {
+    width: 80%;
+    max-width: none !important;
+    margin: 0 auto;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      max-width: none !important;
+    }
+    .modal-content {
+      background-color: #000;
+      border: 0;
+      border-radius: 0;
+    }
+    .close-button {
+      position: fixed;
+      right: 2%;
+      top: 2%;
+      color: #fff;
+      opacity: 1;
+      font-size: 28px;
+      cursor: pointer;
+    }
+  }
+}

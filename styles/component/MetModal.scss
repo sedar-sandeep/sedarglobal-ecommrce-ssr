@@ -1,0 +1,857 @@
+.metModel {
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1054;
+  }
+
+  /* Modal Container */
+  .modal-container {
+    /* background-color: #010101; */
+    width: 70%;
+    max-height: 100%;
+    /* min-height: 100%; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: auto;
+    /* Or scroll */
+    overflow-x: hidden;
+  }
+
+  /* Header with Close Button */
+  /* .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #302d2d;
+  position: relative;
+} */
+
+  .modal-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* Close Button - aligned right in header */
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+
+  /* Top Section Layout */
+  .modal-top {
+    display: flex;
+    flex: 1;
+    /* margin-top: 19px; */
+  }
+
+  /* Middle Section - Large image */
+  .modal-middle {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 20px;
+    border: 2px solid black; */
+    overflow: hidden;
+    min-height: 480px;
+  }
+
+  .large-image {
+    width: auto;
+    height: 480px;
+    min-height: 480px;
+    /* Make the image take full height of the container */
+    object-fit: cover;
+    /* Ensure the image covers the entire area */
+  }
+
+  /* Right Section - Two sections in a row */
+  /* .modal-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  align-content: start;
+  background-color: #010101;
+
+} */
+
+  /* Left Section - Single column layout */
+  .modal-left {
+    width: 21% !important;
+    gap: 10px;
+    border-right: 1px solid #ccc;
+    background-color: #ffffff;
+    max-height: 480px;
+    overflow-y: auto;
+    transition: all 0.4s ease-in-out;
+  }
+
+  /* Each section in left and right side - Box shape */
+  .modal-left .section {
+    display: flex;
+    align-items: center;
+    /* padding: 10px;  */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 20px; */
+    height: 70px;
+    /* Adjust height as per your design */
+    font-weight: bold;
+    font-size: 14px;
+    /* margin-left: -45px; */
+    padding: 15px;
+  }
+
+  .modal-left .section img {
+    width: 35px;
+    /* Set the image size */
+    height: auto;
+    /* Maintain aspect ratio */
+  }
+
+  .modal-left .section span {
+    font-size: 13px;
+    /* Adjust text size */
+  }
+
+  .modal-right .section {
+    padding: 0;
+    /* Remove padding to maximize image size */
+    height: 54px;
+    /* Increase section height */
+    width: 48px;
+    /* Increase section width */
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Bottom Section - Image Slider */
+  .modal-bottom {
+    position: relative;
+    /* Allow absolute positioning of child elements */
+    padding: 10px;
+    border-top: 14px solid #010101;
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* Hide overflow */
+    height: 80px;
+    /* Adjust height as needed */
+  }
+
+  /* Center the image slider */
+  .image-slider {
+    display: flex;
+    gap: 8px;
+    flex-grow: 1;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+  }
+
+  .image-slider img {
+    width: auto;
+    height: 45px;
+    /* object-fit: cover; */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .image-slider img {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  /* Left and right swipe buttons */
+  .swipe-left,
+  .swipe-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #65635f;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  /* Position swipe-left on the left side */
+  .swipe-left {
+    left: 10px;
+  }
+
+  /* Position swipe-right on the right side */
+  .swipe-right {
+    right: 10px;
+  }
+
+  .modal-right .section {
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  .modal-left .section {
+    &:hover {
+      cursor: pointer;
+      background-color: #f6bf5a;
+      color: white;
+    }
+  }
+  .modal-left .section {
+    &:hover {
+      > .left-image img {
+        filter: brightness(0) invert(1) !important;
+      }
+    }
+  }
+
+  .modal-left .left-border {
+    cursor: pointer;
+    background-color: #f6bf5a;
+    color: white;
+  }
+
+  .order-yours {
+    width: 161px;
+    /* border: 2px solid black; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+    background-color: #f6bf5a;
+    color: white;
+    font-size: 16px;
+  }
+
+  .order-yours {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .modal-right .section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302d2d;
+    height: 60px;
+  }
+
+  .mobile-header-section {
+    display: none;
+  }
+
+  .met-desc {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+
+  .artcode {
+    /* border: 2px solid black; */
+    /* margin-right: 81px; */
+    margin-top: 7px;
+    width: 250px;
+    height: 32px;
+    display: flex;
+    font-size: 14px;
+  }
+
+  .artcode span {
+    color: red;
+    margin-left: 10px;
+  }
+
+  /* .logo img {
+  height: 40px;
+  object-fit: cover;
+  margin: auto;
+} */
+
+  .hamburger-menu {
+    color: #f6bf5a !important;
+  }
+
+  .mobile-toggle-parent {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: none;
+  }
+
+  .mobile-toggle {
+    color: #9d9898;
+    border: 2px solid #65635f;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    top: -3;
+    display: none;
+    background-color: #65635f;
+    z-index: 10000;
+  }
+
+  .art-border {
+    border: 2px solid red;
+  }
+
+  .left-image {
+    width: 50px;
+    /* Set a fixed width */
+    height: 50px;
+    /* Set a fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .left-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .left-desc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 14px;
+  }
+
+  .modal-shutter {
+    display: none;
+  }
+
+  .carousel-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .pagination-arrow {
+    width: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    /* Smaller font size for arrows */
+    color: #bbb;
+    margin: 0 8px;
+    padding: 5px;
+    /* Reduce padding to make the button smaller */
+  }
+
+  .pagination-arrow:disabled {
+    color: #ddd;
+    /* Gray out arrow when disabled */
+  }
+
+  .pagination-number {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: -2px 23px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: background-color 0.3s ease;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pagination-number {
+    &:hover {
+      background-color: #f6bf5a;
+    }
+  }
+
+  .pagination-number.active {
+    background-color: #f6bf5a;
+    color: white;
+    /* Change text color for better visibility */
+  }
+
+  .image-gallery {
+    display: none;
+  }
+
+  .share {
+    font-size: 12px;
+    align-items: center;
+    color: #9d9898;
+    padding: 10px 0px 0px;
+  }
+
+  .share span {
+    margin-left: 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white !important;
+  }
+
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .modal-container {
+      width: 95%;
+      max-height: 100%;
+      flex-direction: column;
+      overflow: auto;
+      /* Or scroll */
+      overflow-x: hidden;
+    }
+
+    .modal-top {
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .modal-left,
+    .modal-right {
+      width: 100% !important;
+      /* Make each section take full width */
+      border: none;
+      /* Remove borders for a cleaner look */
+      margin-bottom: 10px;
+    }
+
+    .modal-middle {
+      display: none;
+    }
+
+    .modal-left {
+      max-height: 250px;
+      overflow-y: auto;
+    }
+
+    .modal-right {
+      display: flex;
+      flex-wrap: wrap;
+      /* Handle sections nicely on smaller screens */
+      display: none;
+    }
+
+    .large-image {
+      max-width: 100%;
+      /* Adjust to ensure responsiveness on smaller screens */
+      height: 540px;
+    }
+
+    .modal-left {
+      display: none;
+      /* Hide left section by default */
+    }
+
+    .modal-left.show {
+      display: block;
+
+      /* Show left section when toggle class is added */
+    }
+
+    .order-yours {
+      width: 100%;
+      margin: -13px -20px 3px 0px;
+      height: 81px;
+      position: sticky;
+    }
+
+    .met-desc,
+    .artcode {
+      display: none;
+    }
+
+    .mobile-desc {
+      height: 43px;
+      display: flex;
+      align-items: center;
+      margin-top: 2px;
+      margin-left: 20px;
+    }
+
+    .mobile-artcode span {
+      color: red;
+    }
+
+    /* .logo {
+    margin: auto;
+  } */
+
+    .header-section {
+      background-color: #010101;
+    }
+
+    .modal-right .section {
+      height: 90px;
+      width: 116px;
+      display: none;
+    }
+
+    .mobile-toggle {
+      color: #9d9898;
+      border: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      position: absolute;
+      right: 0;
+      top: -3;
+      display: block;
+    }
+
+    .mobile-toggle-parent {
+      display: block;
+      height: auto;
+    }
+
+    .modal-left .section {
+      width: calc(100% - 0px);
+    }
+
+    .modal-bottom {
+      display: none;
+    }
+
+    /* Modal container styling */
+
+    /* Open class - when modal is open */
+    .modal-shutter.open {
+      display: block;
+      max-height: 480px;
+      opacity: 1;
+    }
+
+    .modal-shutter {
+      width: 100%;
+      margin: 0 auto;
+      background-color: #302d2d;
+      overflow: hidden;
+      transition: max-height 0.5s ease-out;
+      height: auto;
+    }
+
+    /* Modal content */
+    .modal-content {
+      /* padding: 20px; */
+      text-align: center;
+      position: relative;
+      /* height:270px; */
+      /* For positioning the arrow buttons */
+    }
+
+    /* Grid to display 3 images per row, 2 rows */
+    .carousel-images-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* 3 images per row */
+      grid-gap: 10px;
+      justify-content: center;
+      padding: 10px;
+      background-color: #65635f;
+    }
+
+    /* Section for each image */
+    .section {
+      /* width: 100px; */
+      width: 100%;
+      height: 100px;
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section img {
+      max-width: 100%;
+      /* width: auto; */
+      /* max-height: 100%; */
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Arrow buttons */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    .prev {
+      left: 0;
+    }
+
+    .next {
+      right: 0;
+    }
+
+    /* Dots container */
+    .carousel-dots {
+      display: flex;
+      justify-content: center;
+      margin-top: -2px;
+      background-color: #65635f;
+    }
+
+    /* Dot styles */
+    .dot {
+      height: 12px;
+      width: 12px;
+      margin: 7px 7px;
+      background-color: #717171;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Active dot */
+    .dot.active {
+      background-color: #bbb;
+    }
+
+    /* Highlight for selected image */
+
+    .carousel-pagination {
+      display: none;
+    }
+
+    .mobile-header-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #65635f;
+      height: 60px;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .main-image-slider {
+      position: relative;
+      width: 100%;
+      max-height: 100%;
+      min-height: 300px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery-image {
+      width: 100%;
+      max-height: 100%;
+      min-height: 300px;
+      object-fit: cover;
+    }
+
+    /* Radio buttons positioned over the image */
+    .radio-buttons {
+      /* position: absolute; */
+      position: relative;
+      bottom: 50px;
+      /* left: 50%; */
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+    }
+
+    .metModel input[type='radio'] {
+      display: none;
+    }
+
+    .custom-radio {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #d3bcbc;
+      border: 2px solid #ccc;
+      cursor: pointer;
+      display: inline-block;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .custom-radio.checked {
+      background-color: #f0f3f6;
+      border-color: #f0f3f6;
+    }
+
+    .custom-radio {
+      &:hover {
+        background-color: #c57878;
+        border-color: #bbb;
+      }
+    }
+
+    /* Navigation buttons */
+    .prev-button,
+    .next-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 18px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .prev-button {
+      left: 10px;
+    }
+
+    .next-button {
+      right: 10px;
+    }
+
+    .prev-button {
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    .next-button {
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+    }
+
+    .share {
+      display: none;
+    }
+
+    .scroll-content {
+      /* margin-top: 20px; */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .image-container .swiper-pagination {
+      position: relative !important;
+      margin-top: 15px;
+      overflow: hidden;
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+      background-color: rgb(207, 185, 185) !important;
+    }
+    .swiper-pagination .swiper-pagination-bullet-active {
+      background-color: white !important;
+    }
+    .custom-tooltip {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      width: 150px;
+      height: auto;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+      margin-top: 5px;
+      overflow-wrap: break-word;
+    }
+
+    .custom-tooltip::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent #333 transparent;
+    }
+  }
+
+  @media (max-width: 435px) {
+    .gallery-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .order-yours {
+      width: 100%;
+      margin: 0px 0px 0px 0px;
+      height: 50px;
+    }
+
+    .main-image-slider {
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .head-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

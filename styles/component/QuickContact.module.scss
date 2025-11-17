@@ -1,0 +1,147 @@
+.QuickContact {
+  position: relative;
+  padding: 80px 0 20px;
+
+  @media (max-width: 1440px) {
+    padding: 1rem;
+  }
+
+  .max-content {
+    max-width: 1366px;
+  }
+
+  .heading {
+    text-align: center;
+
+    h1 {
+      font: normal normal normal 2.4rem/49px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #000000;
+
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: normal;
+      }
+    }
+
+    p {
+      font: normal normal 300 1rem/34px Helvetica-Neue-Light;
+      letter-spacing: 0.48px;
+      color: #000000;
+    }
+  }
+
+  .contactmethod {
+    text-align: center;
+
+    .contactbox {
+      margin: 20px 0;
+      display: flex;
+    }
+
+    .box {
+      padding: 68px 0 48px;
+      width: 100%;
+
+      .boximage {
+        max-width: 96px;
+        max-height: 96px;
+      }
+
+      h5 {
+        padding: 45px 0;
+        font: normal normal normal 25px/30px Helvetica-Neue-Bold;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+      }
+
+      .chatbutton {
+        background-color: #ffffff;
+        font: normal normal normal 15px/18px Helvetica-Neue-Bold;
+        letter-spacing: 0.3px;
+        color: #000000;
+        padding: 16px;
+        width: 70%;
+        border: 0;
+      }
+
+      ul {
+        justify-content: space-around;
+        display: flex;
+      }
+
+      .contact_social {
+        margin: 0 auto;
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .QuickContact {
+    .contactbox {
+      margin: 4px 0;
+      padding: 0 4px;
+    }
+
+    .heading {
+      max-width: 330px;
+      margin: 0 auto;
+
+      h1 {
+        margin-bottom: 10px;
+        font: normal normal 300 1.7rem/33px Helvetica-Neue-Medium;
+        font-size: 28px;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+        font: normal normal 300 1.7rem/33px Helvetica-Neue-Medium;
+        font-size: 28px;
+      }
+
+      p {
+        font: normal normal 300 1rem/24px Helvetica-Neue-Light;
+        letter-spacing: 0.48px;
+        color: #000000;
+      }
+    }
+
+    .contactmethod {
+      .box {
+        padding: 38px 0 26px;
+
+        .boximage {
+          max-width: 54px;
+          max-height: 96px;
+        }
+
+        .chatbutton {
+          font: normal normal normal 1rem/17px Helvetica-Neue-Bold;
+          letter-spacing: 0.28px;
+          color: #000000;
+          padding: 15px 5px;
+          max-width: 90%;
+          width: 100%;
+        }
+
+        .contact_social {
+          padding: 20px 22px 16px 22px !important;
+
+          img {
+            max-width: 16px;
+          }
+        }
+
+        h5 {
+          padding: 15px 0;
+          font: normal normal normal 17px/21px Helvetica-Neue-Bold;
+          letter-spacing: 0px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

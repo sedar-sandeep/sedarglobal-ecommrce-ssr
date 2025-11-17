@@ -1,0 +1,129 @@
+.ContactForm-sec {
+  background-color: #f7f7f7;
+  position: relative;
+}
+.breadcrumb {
+  margin-left: -1%;
+  font-size: 1rem;
+  letter-spacing: 0.42px;
+  color: #000000;
+  opacity: 0.61;
+  background: transparent;
+  margin-bottom: 30px;
+  a {
+    color: #000000;
+  }
+}
+
+.ContactForm .floating-label {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #000;
+  opacity: 1;
+}
+.ContactForm .user_input_wrp .floating-label {
+  padding-left: 10px;
+}
+.ContactForm .inputText {
+  padding-left: 5px;
+  background-color: inherit;
+}
+.ContactFormpage-sec {
+  padding-top: 60px;
+  .maxwidth {
+    max-width: 1283px;
+    margin: 0 auto;
+    position: relative;
+    @media (max-width: 1440px) {
+      padding: 15px;
+    }
+  }
+
+  .heading {
+    label {
+      font: normal normal normal 1rem/16px Helvetica-Neue;
+      letter-spacing: 0.42px;
+      color: #000000;
+      opacity: 0.56;
+    }
+  }
+  .form-group {
+    margin: 2rem 0;
+  }
+  .orange_color_bg {
+    font: normal normal normal 15px/25px Helvetica-Neue-Bold;
+    letter-spacing: 0px;
+    color: #000000;
+    background-color: #fdcc5d;
+    width: 100%;
+    max-width: 300px;
+    @media (max-width: 1440px) {
+      max-width: 100%;
+    }
+  }
+  .More_Enquiries {
+    text-align: right;
+    border-bottom: 2px solid #fdcc5d;
+    letter-spacing: 0.45px;
+    color: #434343;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Helvetica-Neue-Medium";
+    max-width: fit-content;
+  }
+
+  .section_sec {
+    padding-bottom: 60px;
+  }
+  .section_first {
+    padding-bottom: 19rem;
+    h1 {
+      font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      @media (max-width: 768px) {
+        font-size: 1.7rem;
+        line-height: normal;
+      }
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      width: 60%;
+      padding: 30px 0;
+    }
+    h6 {
+      border-left: 2px solid #ffd64f;
+      padding: 5px 0 5px 22px;
+      font: normal normal normal 1.15rem/19px Helvetica-Neue-Medium;
+      letter-spacing: 1.28px;
+      color: #989898;
+      text-transform: uppercase;
+      margin: 1rem 0;
+    }
+    .col-second {
+      position: absolute;
+      left: 0%;
+      width: auto;
+      bottom: 0;
+    }
+  }
+  .city_with_state{
+    margin-top: -8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ContactFormpage-sec .col-second {
+    display: none;
+  }
+  .ContactFormpage-sec .section_first {
+    padding-bottom: 20px;
+    h1 {
+      width: 100%;
+    }
+  }
+}
+form {
+  label::after {
+    background-color: transparent !important;
+  }
+}

@@ -1,0 +1,79 @@
+.FreeConsultationSimpleProcess {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-attachment: fixed;
+  .max-content {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .headingSection {
+    h1 {
+      font-family: Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #1b1d1d;
+      padding-bottom: 20px;
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: inherit;
+      }
+    }
+    p {
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+      
+    }
+  }
+  .processtep {
+    padding-bottom: 138px;
+    @media (max-width: 992px) {
+      padding-bottom: 3rem;
+    }
+    align-items: center;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+  .processContent,
+  .processImage {
+    position: relative;
+  }
+  .processtepLeft {
+    .processContent {
+      padding-left: 70px;
+    }
+  }
+
+  .processContent {
+    h5 {
+      font: normal normal normal 22px/27px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #1b1d1d;
+      padding-bottom: 25px;
+      @media (max-width: 768px) {
+        line-height: normal;
+        margin: 25px 0;
+        border-left: 2px solid #fdcc5d;
+        padding-left: 25px;
+        padding-bottom: 0;
+      }
+    }
+    .list {
+      li {
+        padding: 20px 0;
+      }
+    }
+    .listimage {
+      max-width: 34px;
+    }
+    .listtext {
+      font: normal normal normal 1.15rem/18px Helvetica-Neue;
+      letter-spacing: 0.16px;
+      color: #000000;
+    }
+  }
+}

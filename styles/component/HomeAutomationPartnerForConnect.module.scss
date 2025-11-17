@@ -1,0 +1,148 @@
+.HomeAutomationPartnerForConnect {
+  position: relative;
+  padding: 30px;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
+  .PartnerForConnect {
+    position: relative;
+    .max-width {
+      max-width: 1175px;
+      margin: 0 auto;
+    }
+    .heading-section {
+      position: relative;
+      text-align: center;
+      margin-top: 30px;
+      padding: 40px;
+      @media (max-width: 768px) {
+        padding: 0;
+        text-align: start;
+      }
+      h1 {
+        font: normal normal normal 2.5rem/49px Helvetica-Neue-Medium;
+        letter-spacing: 0px;
+        color: #1b1d1d;
+        margin-bottom: 27px;
+        @media (max-width: 768px) {
+          font-size: 27.86px;
+          line-height: normal;
+        }
+      }
+      p {
+        font: normal normal 300 1.27rem/22px Helvetica-Neue-Light;
+        letter-spacing: 0px;
+        color: #1b1d1d;
+        opacity: 0.79;
+      }
+    }
+  }
+  .parent-grid-class {
+    padding-top: 200px;
+    @media (max-width: 1400px) {
+      padding-top: 3rem;
+    }
+    .brand-grid-box {
+      text-align: center;
+      &:nth-child(odd) {
+        // margin-top: 88px;
+        margin-top: -80px;
+      }
+      &:nth-child(even) {
+        margin-bottom: 80px;
+        // margin-top: 200px;
+      }
+    }
+  }
+  .brand-grid {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    .middle {
+      transition: 0.5s ease;
+      opacity: 1;
+      position: absolute;
+
+      text-align: center;
+      height: 100%;
+      width: 100%;
+      bottom: 0;
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(42, 42, 42, 0.8990707611169468) 0%,
+        rgba(0, 0, 0, 0.6693788843662465) 10%,
+        rgba(255, 255, 255, 0) 25%
+      );
+      .brand-name {
+        position: absolute;
+        bottom: 10%;
+        left: 12%;
+        h2 {
+          font: normal normal 600 22px/27px Helvetica-Neue;
+          letter-spacing: 0px;
+          color: #ffffff;
+        }
+      }
+    }
+    .grid-content {
+      transition: 0.5s ease;
+      opacity: 1;
+      position: absolute;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+      bottom: 0;
+      background: #3f5671da;
+      opacity: 0;
+      overflow: hidden;
+      .brand-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+
+        max-width: 390px;
+        width: 100%;
+        padding: 20px;
+
+        .brand-name {
+          h2 {
+            font: normal normal 600 22px/27px Helvetica-Neue;
+            letter-spacing: 0px;
+            color: #ffffff;
+            margin-bottom: 25px;
+          }
+        }
+        p {
+          font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+          font-size: 17.78px;
+          letter-spacing: 0.54px;
+          color: #ffffff;
+          margin-bottom: 25px;
+          @media (max-width: 992px) {
+            display: none;
+          }
+        }
+        a {
+          font: normal normal normal 1.1rem/18px Helvetica-Neue-Medium;
+          letter-spacing: 0.45px;
+          color: #ffffff;
+          border-bottom: 2px solid #fdcc5d;
+          padding-bottom: 9px;
+        }
+      }
+    }
+
+    &:hover {
+      .middle {
+        opacity: 0;
+      }
+      .grid-content {
+        opacity: 1;
+      }
+    }
+  }
+}

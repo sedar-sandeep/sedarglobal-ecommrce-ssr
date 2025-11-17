@@ -1,0 +1,781 @@
+/********************************************** RTL  STYLE  COMPLETE WEBSITE **********************/
+[dir='rtl'] {
+  @font-face {
+    font-family: Helvetica-Neue;
+    src: url('/assets/font/HelveticaNeueLT Arabic 55 Roman.ttf') format('truetype');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Helvetica-Neue-Regular;
+    src: url('/assets/font/HelveticaNeueLT Arabic 55 Roman.ttf') format('truetype');
+    font-stretch: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Helvetica-Neue-Thin;
+    src: url('/assets/font/HelveticaNeueLT Arabic 55 Roman.ttf') format('truetype');
+    font-stretch: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Helvetica-Neue-Light;
+    src: url('/assets/font/HelveticaNeueLT Arabic 55 Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Helvetica-Neue-Medium;
+    src: url('/assets/font/HelveticaNeueLT\ Arabic\ 55\ Roman.ttf') format('truetype');
+    font-display: swap;
+    // src: url("/assets/font/HelveticaNeueLT Arabic 55 Roman.ttf")
+    // format("truetype");
+  }
+
+  @font-face {
+    font-family: Helvetica-Neue-Bold;
+    src: url('/assets/font/HelveticaNeueLT\ Arabic\ 75\ Bold.ttf') format('truetype');
+    font-display: swap;
+  }
+
+  * {
+    letter-spacing: 0 !important;
+  }
+  .ltr_text {
+    direction: ltr;
+    text-align: right;
+  }
+
+  .eng_font {
+    font-family: eng_font;
+  }
+
+  svg {
+    transform: scaleX(-1);
+  }
+  .header_mid {
+    // padding: 0px 0px 0px 15px !important;
+  }
+  .modal-header .btn-close {
+    margin-right: auto !important;
+    margin: 0;
+  }
+  .contact_topbar .country-dropdown .flag_icon {
+    margin-left: 18px;
+    margin-right: 0;
+  }
+
+  .alert-dismissible .btn-close {
+    position: absolute !important;
+    right: unset !important;
+    left: 0 !important;
+  }
+
+  .max_content.header {
+    max-width: 1650px;
+
+    @media (max-width: 767px) {
+      padding: 18px 20px 16px 10px;
+    }
+  }
+
+  .header .logo .logoimage {
+    margin-left: 55px;
+    margin-right: -1px;
+
+    @media (max-width: 767px) {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 0;
+      max-width: 96px;
+    }
+  }
+
+  // .MegaMenu .MegaMenu_nav {
+  //   padding-right: 13%;
+  //   padding-left: 15px;
+  //   margin-right: 4px;
+  // }
+
+  .MegaMenu .moreItem .moreItemDropdown {
+    left: 1% !important;
+    right: auto !important;
+  }
+
+  .header .quickmenu ul {
+    justify-content: left;
+
+    // .quickmenu-list-Item {
+    //   &::after {
+    //     content: "|";
+    //     color: #0000004f;
+    //     // padding-left: 0;
+    //     padding: 0 1.5rem;
+    //     position: relative;
+    //   }
+
+    //   &:last-child {
+    //     &::after {
+    //       content: "";
+    //       padding-right: 0rem;
+    //     }
+    //   }
+    // }
+  }
+
+  .header .quickmenu ul li:nth-child(1) img {
+    margin: 0px 0 8px 9px;
+  }
+
+  .header .quickmenu ul li:nth-child(2) img {
+    padding-left: 22px;
+    padding-right: 0px;
+    margin-top: -4px;
+  }
+
+  .header .quickmenu ul li:nth-child(3) img {
+    padding-left: 18px;
+    margin-top: -4px;
+    padding-right: 0px;
+  }
+
+  .CartListMenu .Cartmenu_content {
+    right: auto;
+    left: 15px;
+  }
+
+  .CartListMenu .close-button {
+    right: auto;
+    left: 5%;
+  }
+
+  .header .usermenu .cart .carttext .badge {
+    right: auto;
+    left: -10px;
+  }
+
+  .sedar_notification button.btn-close {
+    transform: translate(50%, -48%);
+  }
+
+  .Banner .swiper-initialized .sliderNavigation {
+    right: auto;
+    left: 14.5%;
+
+    .swiper-next,
+    .swiper-prev {
+      img {
+        transform: scaleX(-1);
+      }
+    }
+  }
+
+  .AddtoCartPopup {
+    .form-check {
+      padding: 0 !important;
+    }
+  }
+
+  .HomeAutomation .HomeAutomation-tab .nav-pills .nav-link::after {
+    left: auto;
+    right: 0;
+  }
+
+  .offerCollection .sliderNavigation {
+    right: auto;
+    left: 0;
+    transform: scaleX(-1);
+  }
+
+  .ProductSlider .sliderNavigation,
+  .Franchisevisionslider .sliderNavigation,
+  .Aboutfeedback .sliderNavigation {
+    .swiper-prev {
+      right: 0;
+      left: auto;
+      transform: scaleX(-1);
+    }
+
+    .swiper-next {
+      right: auto;
+      left: 0;
+      transform: scaleX(-1);
+    }
+  }
+
+  .ProjectRelatedGrid .sliderNavigation,
+  .BlogRelatedStories .sliderNavigation {
+    .swiper-prev {
+      right: -6%;
+      left: auto;
+      transform: scaleX(-1);
+    }
+
+    .swiper-next {
+      right: auto;
+      left: -8%;
+      transform: scaleX(-1);
+    }
+  }
+
+  .CategorySection .Category-grid-viewall {
+    margin-right: auto;
+    margin-left: 9%;
+  }
+
+  .TipsThreads .TipsThreads-details p,
+  .WhySedar h2,
+  .ContactForm-sec .heading h2,
+  .FreeConsultationContentList .col-first h1,
+  .ToolsAndGuidesContentList .col-first h1,
+  .ToolsAndGuidFaq .faq-collapse .card .card-body .body-content,
+  .Franchisevision .col-first-0 h1,
+  .MediaCoverage .heading h1,
+  .ContractsBringWorld .AboutusBringWorld .col-first h1,
+  .QualityServices .QualityServices-heading span,
+  .OurWorkforce .OurWorkforce .col-first h1,
+  .Project h1,
+  .Categorylist h1,
+  .ProjectGallery h3,
+  .TimelessAesthetic .col-first h2,
+  .QualityServices .QualityServices_text h1,
+  .ProjectContent .headinglabel p,
+  .ProjectCategoryList .ProjectCategoryListcontent .headinglabel,
+  .ProjectCategoryGroupHeading .headingsection .headingtext,
+  .ProjectDetailSidebar .sidebar-header > h3,
+  .ProjectRelatedGrid .heading-section h1,
+  .AboutusBringWorld .col-first h1,
+  .AboutHomeAutoMationBox .col-first h5,
+  .AboutHomeAutoMationBox .col-second h5,
+  .OurProjetSlider .col-first h5,
+  .BlogPage .heading-section h1,
+  .BlogPage .BlogList .blog-grid-lg .content-section h3,
+  .BlogPage .BlogListSm .blog-grid .content-section h3,
+  .BlogRelatedStories .BlogListSm .blog-grid .content-section .blog-title,
+  .Seasonal_highlights .offers-text p,
+  .SeasonalOffer .all-offer-text h1,
+  .FreeConsultationHowWork .howItwork .headingsection h1,
+  .ContactFormpage-sec .section_first h6,
+  .BrandPage .collapsecontent .heading h3,
+  .BrandPageContent .headingsection h1,
+  .swiperslider-about .heading-section span,
+  .FreeConsultationSimpleProcess .processContent h5,
+  .HomeAutomationBasicContent .col-first h1,
+  .HomeAutomationService .Professional-content .col-first h1,
+  .Sitemap .hadding h1,
+  .Inhousedesign .col-first h1 {
+    border-left: 0;
+    border-right: 2px solid #ffd64f;
+    padding-left: 0;
+    padding-right: 22px;
+  }
+
+  .TipsThreads .TipsThreads-txt {
+    padding: 5px 22px 5px 0px;
+  }
+
+  .ToolsAndGuidFaq .faq-collapse .card .card-body {
+    padding: 2rem;
+  }
+
+  .Franchisevisionslider .FranchisevisionSwiper .swiper-slide::after {
+    right: 0;
+    left: auto;
+  }
+
+  .FranchiseSupport .sliderNavigation {
+    right: auto;
+    left: 0;
+
+    .swiper-next,
+    .swiper-prev {
+      img {
+        transform: scaleX(-1);
+      }
+    }
+  }
+
+  .MegaMenu .mega_menu_dropdown.smallbg::before {
+    left: auto;
+    right: -160px;
+    transform: scaleX(-1);
+  }
+
+  .MegaMenu .mega_menu_dropdown.smallbg::after {
+    left: -132px;
+    right: auto;
+  }
+
+  .close-button {
+    right: unset !important;
+    left: 1% !important;
+  }
+
+  .floating-field input + label,
+  .floating-field textarea + label {
+    right: 0;
+    left: auto;
+  }
+
+  .BlogPage .blog-search::before {
+    padding-right: 0;
+    padding-left: 1.5rem;
+  }
+
+  .BlogPage .blog-basic {
+    background-position-x: left;
+  }
+
+  .form-check-label {
+    margin-left: 10px;
+  }
+  .FilterSidebar .filtercheckbox .form-check-label {
+    padding-right: 10px;
+  }
+
+  .ProductList .shortfeatures li {
+    padding-right: 10px;
+  }
+
+  .ProductList .shortfeatures ul {
+    margin-right: 20px;
+  }
+
+  .ProfileContent .tab-nav .nav-link {
+    margin-right: 0;
+    margin-left: 2vw;
+  }
+
+  .ProfileContent .ProfileAddress .tab-content .plan-type-heading {
+    right: auto;
+    left: calc(15px + 2px);
+  }
+
+  .ProfileContent .ProfileAddress .tab-content .radio {
+    left: auto;
+    right: calc(15px + 2px);
+  }
+
+  .ProfileContent .ProfileAddress .tab-content .plan-details .plan-box {
+    margin: 0 2rem 0 1rem;
+  }
+
+  .HomeAutomation .HomeAutomation-tab .tab-content .nav-link::after {
+    left: auto;
+    right: 0;
+  }
+
+  .CustomizationProduct .nextstep {
+    text-align: left;
+  }
+
+  .whatsAppChat,
+  .zsiq_floatmain,
+  .chatty-widget #chatty-iframe {
+    right: auto !important;
+    left: 20px;
+    transition: none !important;
+    &.left {
+      right: 20px;
+      left: auto;
+    }
+  }
+  .custom_fc_frame_move_position {
+    @media (max-width: 767px) {
+      .whatsAppChat {
+        right: auto !important;
+        left: 15px;
+      }
+      .zsiq_floatmain {
+        right: auto !important;
+        left: 20% !important;
+      }
+    }
+    .zsiq_floatmain {
+      left: unset;
+    }
+  }
+
+  .fc-widget-small {
+    right: auto !important;
+    left: 15px;
+
+    &.left {
+      right: 30px;
+      left: auto;
+    }
+  }
+
+  .scrollTop {
+    right: auto;
+    left: 5%;
+
+    @media (max-width: 768px) {
+      right: 5%;
+      left: auto;
+    }
+  }
+
+  .header .usermenu .user-utility-menu .dropdown-menu .dropdown-item {
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+
+  .header .usermenu .user-utility-menu .dropdown-menu {
+    inset: 0px auto auto auto !important;
+  }
+
+  .HomeTopCategory {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+
+  .Aboutfeedback .AboutfeedbackSwiper .swiper-pagination-bullets {
+    left: 0;
+    right: auto;
+  }
+
+  .MoreEnquires .enquire_type img {
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 30px;
+    margin-left: 15px;
+
+    @media (max-width: 576px) {
+      padding-right: 0;
+      padding-left: 15px;
+    }
+  }
+
+  .ContactFormpage-sec .section_first .col-second {
+    right: 0;
+    left: auto;
+  }
+
+  .MegaMenu .mega_dropdown_content .col-custom-5 .shop_box .shop_link a {
+    padding-left: 0;
+    padding-right: 30px;
+  }
+
+  .CustomizationProduct .scenesection {
+    left: 0;
+    right: auto;
+  }
+
+  .MaterialList .grid-border .col-sm-4:nth-child(1),
+  .MaterialList .grid-border .col-sm-4:nth-child(2) {
+    border-right: 0;
+    border-left: 1px solid #dddddd;
+  }
+
+  .ShippingPage .ShippingAddress .shippingAddressCard .plan-type-heading {
+    right: auto;
+    left: 3rem;
+  }
+
+  #NewCollection {
+    @media (min-width: 992px) {
+      .offerCollectionSlider {
+        &.swiper-initialized {
+          .swiper-wrapper {
+            .swiper-slide {
+              text-align: left;
+            }
+          }
+        }
+
+        .swiper-slide-prev {
+          img {
+            left: -40%;
+            right: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .FooterAnnouncement .col-second img {
+    left: 15px;
+    right: auto;
+  }
+
+  .CustomizationStepSection .stepsidebar .stepsidebarmenu .previewBtn {
+    right: 2%;
+    left: auto;
+  }
+
+  .MegaMenu .navbar-nav > li > a.nav-link {
+    font-size: 15px;
+  }
+
+  .MegaMenu .navbar-nav > li:nth-last-child(3) {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+
+  .react-tel-input {
+    padding: 0;
+    border: 0;
+
+    .form-control {
+      padding-left: 0 !important;
+      padding-right: 48px !important;
+    }
+
+    .selected-flag {
+      padding: 0 22px 0 8px !important;
+    }
+  }
+
+  .header .searchbar .searchbar_form {
+    padding-bottom: 3px !important;
+  }
+
+  .selected-icon {
+    right: auto !important;
+    left: -1%;
+  }
+
+  .MegaMenu .navbar-nav > li:nth-last-child(2) .nav-link {
+    @media (max-width: 1600px) {
+      padding: 6px 15px 18px 20px;
+    }
+  }
+
+  .BrandPage {
+    @media screen and (min-width: 992px) {
+      .card:nth-of-type(3n + 2) .card__expander {
+        margin-right: calc(-100% - 30px);
+        margin-left: auto !important;
+      }
+
+      .card:nth-of-type(3n + 3) .card__expander {
+        margin-right: calc(-200% - 60px);
+        margin-left: auto !important;
+      }
+
+      .card:nth-of-type(3n + 4) {
+        clear: right;
+      }
+
+      .card__expander {
+        width: calc(300% + 60px);
+      }
+    }
+  }
+
+  .BrandPage .collapsecontent .closebutton {
+    right: auto !important;
+    left: 5%;
+  }
+
+  .tabystyle {
+    svg {
+      transform: scaleX(1) !important;
+    }
+  }
+  // }
+
+  .CartPage .captcha_img #reload_href {
+    right: auto;
+    left: 0;
+    text-align: left;
+  }
+
+  .captcha_img {
+    #reload_href,
+    #reload_href2 {
+      right: auto;
+      left: 15px;
+      text-align: left;
+    }
+  }
+
+  .rbt-input-main.form-control.rbt-input {
+    padding: 5px 10px;
+  }
+
+  #NewCollection .offerCollection .offerCollection-text p {
+    padding-right: 15px;
+  }
+
+  // .MaterialList .card .card-body .textcard .itemname {
+  //   direction: ltr;
+  //   text-align: right;
+  // }
+  .add-wish.end-0 {
+    left: 0 !important;
+    right: unset !important;
+  }
+  .loginPopup {
+    .btn-close {
+      margin: 0px;
+    }
+  }
+  .FreeConsultationBookForm {
+    .form-section {
+      #dropdown-autoclose-outside {
+        text-align: right !important;
+        padding-top: 24px;
+      }
+      .dropdown-menu.show {
+        transform: translate(0px, 63px) !important;
+      }
+    }
+    .plan-details {
+      position: absolute;
+      top: 10px;
+    }
+  }
+
+  .searchbar_form {
+    .rbt-input-main.form-control.rbt-input {
+      padding: 0 10px !important;
+    }
+  }
+
+  .pleatselect,
+  .lining {
+    .form-check {
+      .form-check-label {
+        font: normal normal normal 14px/5px Helvetica-Neue !important;
+      }
+      .form-check-input {
+        margin-left: 15px !important;
+      }
+    }
+  }
+
+  .measurement,
+  .choose_fabric {
+    .form-check {
+      .form-check-label {
+        font: normal normal normal 1rem/0px Helvetica-Neue !important;
+        padding-top: 0px !important;
+      }
+      .form-check-input {
+        margin-left: 15px !important;
+      }
+    }
+
+    .form-select {
+      background-position: left 0.75rem center !important;
+    }
+
+    .form-label,
+    p {
+      font: normal normal normal 1rem/23px Helvetica-Neue-Medium;
+      font-size: 14px;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+
+      @media (max-width: 576px) {
+        font-size: 12.6px;
+      }
+    }
+
+    .form-control {
+      border: 1px solid #b0b0b0;
+    }
+
+    .notice {
+      font: normal normal 300 12px Helvetica-Neue;
+      letter-spacing: 0.24px;
+      color: #000000;
+
+      @media (max-width: 576px) {
+        font-size: 0.7rem;
+        color: #555555;
+      }
+    }
+
+    border-bottom: 0.75px solid #70707062;
+  }
+
+  [type='tel'] {
+    direction: ltr;
+  }
+  .FranchiseSupport .swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: unset;
+  }
+  .removeitem {
+    right: unset !important;
+  }
+  .itemcode {
+    .float-start {
+      float: left !important;
+    }
+  }
+  .PhoneInputCountry {
+    float: right;
+  }
+
+  #OfferSection {
+    .border-start {
+      border-left: none !important;
+    }
+    .Offer {
+      .pro_mat_title {
+        float: right;
+        padding: 15px;
+      }
+      .view_all {
+        text-align: left;
+        padding: 10px 15px;
+      }
+    }
+    .MaterialList {
+      .materialgridlist {
+        .materialgridlistitem {
+          .card {
+            .card-body {
+              min-height: 290px;
+            }
+            @media (max-width: 1150px) {
+              .card-body {
+                min-height: 365px;
+              }
+            }
+            @media (max-width: 576px) {
+              .card-body {
+                min-height: 390px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #material_list {
+    .materialgridlist {
+      .materialgridlistitem {
+        ul.family_color {
+          padding-right: 0px;
+        }
+        .QuickbuyMobile {
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .shippingoptionalign {
+    .form-check-label {
+      margin-right: 10px;
+      margin-left: 0;
+    }
+  }
+}
+
+.ElevenLabsChat.left {
+  elevenlabs-convai {
+    right: 270px;
+    left: auto;
+  }
+}

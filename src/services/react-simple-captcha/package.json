@@ -1,0 +1,64 @@
+{
+  "_from": "react-simple-captcha",
+  "_id": "react-simple-captcha@9.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9y1KtZO+HEq6/TU7RxVWhO3LpqiSzxCYP0MM3CiWOUdVydwsSj+9ZOnFRA1vFux1X+aW0OWevuyGeZk2+LxScQ==",
+  "_location": "/react-simple-captcha",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-simple-captcha",
+    "name": "react-simple-captcha",
+    "escapedName": "react-simple-captcha",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-simple-captcha/-/react-simple-captcha-9.0.0.tgz",
+  "_shasum": "e521ff65ec8e57fbeb66dd5d20e8442f1adca9fa",
+  "_spec": "react-simple-captcha",
+  "_where": "C:\\wamp\\www\\sedarglobal-frontend",
+  "author": {
+    "name": "Masroor Ejaz"
+  },
+  "bugs": {
+    "url": "https://github.com/masroorejaz/react-simple-captcha/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-html-parser": "^2.0.2"
+  },
+  "deprecated": false,
+  "description": "A very simple,powerful and highly customizable captcha for ReactJS",
+  "devDependencies": {
+    "react": "^17.1.0",
+    "react-dom": "^17.1.0"
+  },
+  "homepage": "https://github.com/masroorejaz/react-simple-captcha#readme",
+  "keywords": [
+    "react",
+    "reactjs-captcha",
+    "captcha",
+    "react-captcha",
+    "react-simple-captcha"
+  ],
+  "license": "MIT",
+  "main": "react-simple-captcha.js",
+  "name": "react-simple-captcha",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masroorejaz/react-simple-captcha.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "9.0.0"
+}

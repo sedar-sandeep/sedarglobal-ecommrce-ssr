@@ -1,0 +1,136 @@
+.card {
+  cursor: pointer;
+}
+.hstack {
+  justify-content: space-between;
+}
+
+.gird-form {
+  width: 20%;
+}
+
+.btn-group {
+  border: 1px solid #dadcdf;
+  padding: 7px 25px;
+  height: 50px;
+  cursor: pointer;
+
+  .in-btn {
+    border: none;
+    border-right: 1px solid #ddd;
+    &:hover {
+      background: transparent;
+      color: #000;
+      border-right: 1px solid #ddd;
+    }
+  }
+
+  .end-btn {
+    border: none;
+    &:hover {
+      background: transparent;
+      color: #000;
+    }
+  }
+}
+
+.card-subtitle {
+  font: normal normal normal 12px Helvetica-Neue;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 0.39;
+}
+
+.c-title {
+  font: normal normal normal 1.5rem Helvetica-Neue-Bold;
+  letter-spacing: 0;
+  color: #ff7600;
+  font-size: 20px;
+}
+
+.brand-img {
+  height: 17px;
+  width: auto;
+  margin-top: -36px;
+  padding: 0 !important;
+}
+
+.sub-sec {
+  font: normal normal normal 1rem/19px Helvetica-Neue-Medium;
+  letter-spacing: 0;
+  color: #4a4a4a;
+}
+
+.para-sec {
+  font: normal normal normal 1.27rem/1.5rem Helvetica-Neue-Medium;
+  letter-spacing: 0;
+  color: #000;
+  font-size: 19px;
+}
+
+.end-img {
+  height: 27px;
+  width: auto;
+  border-radius: 60px;
+}
+
+.end-row-6 {
+  height: 28px !important;
+  // width: auto;
+  max-width: 28px !important;
+}
+
+.radiobtn-img {
+  border: 2px solid #ff7600;
+  border-radius: 50%;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.filter-title {
+  font-family: Helvetica-Neue-Bold;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+.filter-para {
+  text-decoration: underline;
+}
+
+.accordian-card.card {
+  border: none;
+}
+
+.card-header {
+  font: normal normal normal 15px/25px Helvetica-Neue-Bold;
+  letter-spacing: 0;
+  color: #0a0a0a;
+  opacity: 1;
+  padding: 10px 0;
+}
+
+form {
+  font: normal normal normal 1rem/1.75rem Helvetica-Neue;
+  padding: 5px 0 5px 25px;
+}
+.acc-subtitle.mb-2.card-subtitle.h6 {
+  font: normal normal normal 12px Helvetica-Neue;
+  letter-spacing: 0.24px;
+  color: #42464d;
+  opacity: 1;
+}
+
+select.gird-form.form-select {
+  border: 1px solid #dadcdf;
+  border-radius: 2px;
+  width: 100%;
+  font: normal normal normal 15px/25px Helvetica-Neue-Medium;
+  letter-spacing: 0;
+  color: #0a0a0a;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  background-color: initial;
+}

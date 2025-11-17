@@ -1,0 +1,154 @@
+.WhySedar {
+  padding-top: 5rem;
+
+  h1,h3 {
+    font: normal normal 500 1.15rem/19px Helvetica-Neue;
+    letter-spacing: 1.28px;
+    color: #989898;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    letter-spacing: 0;
+    font: normal normal normal 30px/37px Helvetica-Neue;
+    border-left: 2px solid #ffd64f;
+    padding: 5px 0 5px 22px;
+  }
+  .WhySedar-heading p {
+    letter-spacing: 0;
+    font: normal normal normal 2.8rem/55px Helvetica-Neue;
+    padding: 20px;
+    width: 64%;
+    font-size: 2.4rem;
+  }
+}
+.WhysedarCollection-text img {
+  width: 300px;
+}
+
+.whysedarCollection {
+  padding-top: 8rem;
+  &:nth-child(even) {
+    .Whysedar_Collection {
+      flex-direction: row-reverse;
+    }
+    .Whysedar-text-S {
+      text-align: right;
+
+      p {
+        float: right;
+      }
+    }
+    .Whysedar-title {
+      padding: 4px 22px 4px 22px;
+      text-align: right;
+      border-right: 2px solid #ffd64f;
+      border-left: none;
+    }
+  }
+  .Whysedar-text-S.col-sm-6:last-child {
+    .WhySedar h6 {
+      text-align: right;
+    }
+  }
+  .WhysedarCollection-text {
+    text-align: center;
+  }
+
+  .WhysedarCollection-text h2 {
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #000;
+    border-left: 2px solid #ffd64f;
+    padding: 5px 0 5px 22px;
+  }
+  p {
+    width: 91%;
+    font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+    font-size: 17.78px;
+    letter-spacing: 0.54px;
+    padding-top: 25px;
+  }
+  .Whysedar-text-S {
+    padding-top: 4rem;
+  }
+  .Whysedar-text-E {
+    padding-top: 10rem;
+  }
+  .Whysedar-text-D {
+    padding-top: 6rem;
+  }
+  .Whysedar-text-A {
+    padding-top: 7rem;
+  }
+  .Whysedar-text-R {
+    padding-top: 6rem;
+  }
+}
+.swiperslider-about {
+  text-align: center;
+  padding-top: 70px;
+
+  .heading-section {
+    position: relative;
+    text-align: center;
+    padding: 35px;
+    @media (max-width: 576px) {
+      padding: 35px 5px;
+    }
+
+    span {
+      font: normal normal normal 20px/19px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #000;
+      text-transform: uppercase;
+      border-left: 2px solid #fdcc5d;
+      margin: 10px 0;
+      padding-left: 12px;
+    }
+    .imsg {
+      width: 60%;
+    }
+
+    p {
+      padding-top: 20px;
+    }
+    img {
+      height: 270px;
+      width: 60%;
+    }
+  }
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  top: 10%;
+  background: var(--swiper-pagination-color, #000);
+}
+
+@media (max-width: 767px) {
+  .destop_view {
+    display: none;
+  }
+  .WhySedar .WhySedar-heading p {
+    font-size: 27.86px;
+    line-height: normal;
+  }
+
+  .mobile_heading {
+    padding: 0 22px;
+  }
+}
+@media (min-width: 767px) {
+  .destop_view {
+    display: block;
+  }
+  .mobile_view {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .WhySedar .WhySedar-heading p {
+    width: 100%;
+  }
+}

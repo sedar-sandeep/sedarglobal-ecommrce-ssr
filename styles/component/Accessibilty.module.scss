@@ -1,0 +1,31 @@
+.Accessibilty {
+  padding-bottom: 10rem;
+  .max-content {
+    max-width: 1140px;
+  }
+
+  .col-first {
+    h1 {
+      font-weight: bold;
+      padding-top: 30px;
+    }
+    h3 {
+      padding-top: 30px;
+    }
+    p ,ul{
+      color: #5a5a5a;
+      padding-top: 10px;
+      font: normal normal 1rem Helvetica-Neue-Light;
+      @media (min-width: 576px) {
+        font: normal normal 1.2rem/31px Helvetica-Neue-Light;
+      }
+      strong{
+          color: #000;
+        font: normal normal 1rem Helvetica-Neue-Medium;
+        @media (min-width: 576px) {
+          font: normal normal 1.2rem/31px Helvetica-Neue-Medium;
+        }
+      }
+    }
+  }
+}

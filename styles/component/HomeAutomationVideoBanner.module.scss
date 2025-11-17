@@ -1,0 +1,56 @@
+.HomeAutomationVideoBanner {
+  position: relative;
+ 
+  .videobanner {
+    position: relative;
+    .overly {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      background-color: #000000;
+      opacity: 0.45;
+    }
+    .center-item {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    .center-content {
+      position: relative;
+      text-align: center;
+      h1 {
+        font: normal normal normal 2.8rem/61px Helvetica-Neue;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+        margin-bottom: 0px;
+      }
+      label {
+        font: normal normal 100 55px/67px Helvetica-Neue-Thin;
+        letter-spacing: 1.65px;
+        color: #ffffff;
+        margin-bottom: 30px;
+
+      }
+      .playicon {
+        max-width: 115px;
+        margin-top: 47px;
+        &.btn:focus {
+            box-shadow: none;
+          }
+      }
+    }
+    .react-player {
+      // max-height: 850px;
+      // width: 100vw;
+      // position: relative;
+      // video{
+      // max-height: 850px;
+      // width: 100vw;
+
+      // }
+    }
+  }
+}

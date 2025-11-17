@@ -1,0 +1,86 @@
+.FreeConsultationHowWork {
+  position: relative;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  padding: 50px 0;
+  @media (max-width: 992px) {
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+  }
+  .max-width {
+    position: relative;
+    max-width: 1364px;
+    margin: 0 auto;
+  }
+  .howItwork {
+    position: relative;
+    .headingsection {
+      position: relative;
+      h1 {
+        font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+        font-size: 39.2px;
+        letter-spacing: 0px;
+        color: #000000;
+        border-left: 2px solid #fdcc5d;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        @media (max-width: 768px) {
+          font-size: 27.86px;
+          line-height: normal;
+          border-left: none;
+          padding-left: 0;
+        }
+      }
+      p {
+        font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+        font-size: 17.78px;
+        letter-spacing: 0.54px;
+        color: #000000;
+        padding-left: 20px;
+        margin-bottom: 25px;
+        @media (max-width: 768px) {
+          padding-left: 0;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  .howworkcontent {
+    position: relative;
+    margin-bottom: 50px;
+    .howworkImage {
+      position: relative;
+      text-align: center;
+    }
+    .overly {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      background-color: #000000;
+      opacity: 0.45;
+    }
+    .playicon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      &.btn:focus {
+        box-shadow: none;
+      }
+      img {
+        max-width: 68px;
+      }
+    }
+    .itemtext {
+      position: absolute;
+      bottom: 8%;
+      left: 10%;
+      p {
+        font: normal normal bold 1.27rem/24px Helvetica-Neue;
+        letter-spacing: 0.36px;
+        color: #ffffff;
+      }
+    }
+  }
+}

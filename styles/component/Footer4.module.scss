@@ -1,0 +1,206 @@
+.Footer4 {
+  max-width: 1407px;
+  margin: 0 auto;
+  a {
+    text-decoration: none !important;
+  }
+
+  .footer_bottombar {
+    margin-left: 8px !important;
+    font-family: Helvetica-Neue-Light;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px !important;
+    font-weight: 300;
+    line-height: 1.14;
+    color: #6f6f6f;
+    .designby {
+      text-align: right;
+      font-family: Helvetica-Neue;
+    }
+    a {
+      color: #6f6f6f;
+    }
+    .bottombar_menu ul {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+  // accordian
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+  /* CSS */
+}
+
+@media (min-width: 1201px) and (max-width: 1499px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+ 
+*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+ 
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  
+*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+ 
+*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .Footer4 {
+    .footer_bottombar {
+      padding: 0;
+      text-align: center;
+      .copyright {
+        padding: 28px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+      }
+      .bottombar_menu {
+        padding: 28px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+      }
+      .designby {
+        padding: 28px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+        text-align: center;
+      }
+      a {
+        color: #6f6f6f;
+      }
+      .bottombar_menu ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  /* CSS */
+  .Footer4 {
+    .footer_main_menus {
+      padding: 0;
+      .footer_main_menu {
+        padding-bottom: 0px;
+        .footer-title {
+          font-size: 16px;
+          color: #ffffff;
+          font-weight: 500;
+          padding-bottom: 35px;
+        }
+
+        .footer_main_menu_list {
+          li > a {
+            color: #b1b1b1;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 2.86;
+          }
+        }
+      }
+      .footer_main_contact {
+        border-top: none;
+        border-bottom: none;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+        .number,
+        .email {
+          label {
+            font-size: 1rem;
+            color: #adadad;
+
+            line-height: 1.14;
+          }
+          p {
+            font-size: 18px;
+            color: #ffffff;
+
+            line-height: 1.17;
+          }
+        }
+        .email {
+          margin-left: auto;
+          padding: 20px 0;
+          border-top: 1px solid rgba(119, 127, 142, 0.1);
+          border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+        }
+        .number {
+          margin-left: auto;
+          padding: 20px 0;
+          border-top: 1px solid rgba(119, 127, 142, 0.1);
+        }
+      }
+      .payment_method {
+        padding: 30px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+        ul {
+          justify-content: space-around;
+          li {
+            padding-right: 20px;
+          }
+        }
+      }
+      .contact_social {
+        margin-left: 0;
+        padding: 28px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+
+        ul {
+          justify-content: space-around;
+          li {
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+    .footer_bottombar {
+      text-align: center;
+      padding: 0;
+      .copyright {
+        padding: 30px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+      }
+      .bottombar_menu {
+        padding: 12px 0 0 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+      }
+      .designby {
+        padding: 24px 0;
+        border-top: 1px solid rgba(119, 127, 142, 0.1);
+        border-bottom: 1px solid rgba(119, 127, 142, 0.1);
+        text-align: center;
+      }
+      a {
+        color: #6f6f6f;
+      }
+      .bottombar_menu ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        li {
+          padding-bottom: 12px;
+          padding: 0 5px 12px 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "data":{
+      "children":[
+         {
+            "data":{
+               "subreddit":"Component/ProductMaterialDetail/ProductMaterialDetail",
+               "title":"ProductMaterialDetail"
+            }
+         }         
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+.headerMain {
+  z-index: 1049;
+  background-color: #fff !important;
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  // overflow-x: hidden;
+  // display: block;
+  top: 0; /* required */
+  height: 100%;
+  .shadows {
+    box-shadow: 0 -6px 10px rgba(49, 49, 49, 0.75) !important;
+  }
+  @media (max-width: 768px) {
+    position: sticky;
+    top: 0;
+    z-index: 111;
+    background-color: #fff;
+  }
+}
+@media (min-width: 768px) {
+  .overflowhidden {
+    overflow: hidden;
+  }
+}

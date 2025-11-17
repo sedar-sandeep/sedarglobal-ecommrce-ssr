@@ -1,0 +1,18 @@
+{
+   "data":{
+      "children":[        
+         {
+            "data":{
+               "subreddit":"Component/MoodBoardView/MoodBoardView",
+               "title":"MoodBoardView"               
+            }
+         },          
+         {
+            "data":{
+               "subreddit":"Component/FooterAnnouncement/FooterAnnouncement",
+               "title":"FooterAnnouncement"
+            }
+         }       
+      ]
+   }
+}

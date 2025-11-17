@@ -1,0 +1,369 @@
+@import './bootstrapTheme/variables.scss';
+
+@import './bootstrapTheme/theme.scss';
+
+@import './component/Topbar.module.scss';
+@import './component/HeaderMidSection.module.scss';
+@import './component/Header.module.scss';
+@import './component/MegaMenu.module.scss';
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './component/Banner.module.scss';
+
+@import "./component/LandingPage.module.scss";
+@import './component/HomeTopCategory.module.scss';
+
+@import './component/AddtoCartModal.module.scss';
+@import './component/OurBrands.module.scss';
+@import './component/ComponentNotFound.scss';
+@import './component/ContactFormpage.module.scss';
+@import './component/ContactForm.module.scss';
+@import './component/ContractsForm.module.scss';
+@import './component/Franchise.module.scss';
+@import './component/FooterAnnouncement.module.scss';
+
+@import './component/Instagram.module.scss';
+@import './component/LoaderComponent.module.scss';
+
+@import './component/CartListMenu.module.scss';
+@import './component/OffcanvasMenus.module.scss';
+@import './component/Offer.module.scss';
+@import './component/TipsThreads.module.scss';
+
+@import './component/HomePageOurPresence.module.scss';
+@import './component/ProductSlider.module.scss';
+@import './component/QuickContact.module.scss';
+@import './component/Privacypolicy.module.scss';
+@import './component/TermsAndContitions.module.scss';
+@import './component/CookiePolicy.module.scss';
+@import './component/Accessibilty.module.scss';
+@import './component/Findlocation.module.scss';
+@import './component/FreeConsultationHowWork.module.scss';
+@import './component/VideoModal.module.scss';
+@import './component/CommonBannerPage.module.scss';
+@import './component/FreeConsultationContentList.module.scss';
+@import './component/FreeConsultationBookForm.module.scss';
+@import './component/FreeConsultationSimpleProcess.module.scss';
+@import './component/BrandPageContent.module.scss';
+@import './component/BrandPage.module.scss';
+@import './component/Faqpage.module.scss';
+@import './component/ToolsAndGuidesContentList.module.scss';
+@import './component/ToolsAndinstructions.module.scss';
+@import './component/ToolsAndGuidFaq.module.scss';
+@import './component/PageBanner.module.scss';
+@import './component/Franchisevision.module.scss';
+@import './component/WhyPartner.module.scss';
+@import './component/Franchisevisionslider.module.scss';
+@import './component/FranchiseSupport.module.scss';
+@import './component/FranchiseTestimonial.module.scss';
+@import './component/FranchiseTestimonialTab.module.scss';
+@import './component/MediaCoverage.module.scss';
+@import './component/FranchiseeContactForm.module.scss';
+@import './component/ServiceBanner.module.scss';
+@import './component/Simplpieces.module.scss';
+@import './component/QualityServices_page.module.scss';
+@import './component/AboutUsBanner.module.scss';
+@import './component/AboutusBringWorld.module.scss';
+@import './component/AboutReferenceSlider.module.scss';
+@import './component/AboutTimeWise.module.scss';
+@import './component/WhySedar.module.scss';
+@import './component/AboutHomeAutoMationBox.module.scss';
+@import './component/OurProjetSlider.module.scss';
+@import './component/ReturnsAndRefund.module.scss';
+@import './component/HomeAutomationVideoBanner.module.scss';
+@import './component/HomeAutomationBasicContent.module.scss';
+@import './component/HomeAutomationPartnerForConnect.module.scss';
+@import './component/HomeAutomationSedarStrength.module.scss';
+@import './component/HomeAutomationVoiceControlSlider.module.scss';
+@import './component/HomeAutomationProductPopup.module.scss';
+@import './component/HomeAutomationService.module.scss';
+@import './component/InquiryForm.module.scss';
+@import './component/ProjectCategoryGroupBanner.module.scss';
+@import './component/ProjectCategoryGroupHeading.module.scss';
+@import './component/ProjectCategoryGroupGrid.module.scss';
+@import './component/B2BRegistration.module.scss';
+@import './component/ContractsBanner.module.scss';
+@import './component/ContractsBringWorld.module.scss';
+@import './component/ExploreProjectSection.module.scss';
+@import './component/QualityServices.module.scss';
+@import './component/OurWorkforce.module.scss';
+@import './component/Categorylist.module.scss';
+@import './component/ProjectGallery.module.scss';
+@import './component/BlogPage.module.scss';
+@import './component/UserModal.module.scss';
+@import './component/Modals.module.scss';
+@import './component/WishList.scss';
+@import './component/FreeSample.module.scss';
+@import './component/MaterialList.module.scss';
+@import './component/MoodBoardView.module.scss';
+@import './component/ProductList.module.scss';
+@import './component/FilterSidebar.module.scss';
+@import './component/ProductListThumbSlider.module.scss';
+@import './component/ProductPage.module.scss';
+@import './component/StepPopup.module.scss';
+@import './component/ProductMaterialDetailThumbSlider.module.scss';
+@import './component/ProjectImageGalleryPopup.module.scss';
+@import './component/ProductMaterialDetail.module.scss';
+@import './component/ProductMaterialOtherDetail.module.scss';
+
+@import './component/ProfileContent.module.scss';
+@import './component/ProfileModal.module.scss';
+@import './component/ProfileSidebarLayout.module.scss';
+@import './component/CartPage.module.scss';
+@import './component/CustomizationProduct.module.scss';
+@import './component/CustomizeStep.module.scss';
+@import './component/ShippingPage.scss';
+@import './component/AddressForm.scss';
+@import './component/ApplePay.css';
+@import './component/ItemFilterSidebar.module.scss';
+
+@import './component/Footer.module.scss';
+@import './component/Footer1.module.scss';
+@import './component/Footer2.module.scss';
+@import './component/Footer3.module.scss';
+@import './component/Footer4.module.scss';
+
+@import './component/MetModal.scss';
+@import './component/NewLandingPage.module.scss';
+// @import "./component/";
+
+// $theme-colors: (
+//   "primary": $color-primary,
+//   "secondary": $color-secondary,
+//   "danger": $color-danger,
+//   "success": $color-success,
+//   "warning": $color-warning,
+//   "info": $color-info,
+//   "dark": $color-dark,
+//   "light": $color-light
+// );
+
+// $grays: (
+//   "100": $gray-100,
+//   "200": $gray-200,
+//   "300": $gray-300,
+//   "400": $gray-400,
+//   "500": $gray-500,
+//   "600": $gray-600,
+//   "700": $gray-700,
+//   "800": $gray-800,
+//   "900": $gray-900
+// );
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica-Neue;
+  font-display: swap;
+  background: #fff;
+  color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #000;
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  border: 0;
+}
+
+.contains_img {
+  object-fit: contain;
+}
+
+.objectfit_none {
+  object-fit: none;
+}
+
+.family_color {
+  padding-left: 0px !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+}
+
+.form-select {
+  border-radius: 0.25rem;
+}
+
+.form-check-label {
+  line-height: normal;
+}
+
+#secondbrain\.fyi-chat-window {
+  z-index: 1055 !important;
+}
+
+.bg-green {
+  background-color: $green-light;
+}
+
+// .form-check-input{
+//   margin: 0 !important;
+// }
+
+.purpleJam {
+  a {
+    color: $purple-jam;
+  }
+}
+
+.top-1 {
+  top: ($position-values * 1);
+}
+
+.top-2 {
+  top: ($position-values * 2);
+}
+
+.top-3 {
+  top: ($position-values * 3);
+}
+
+.top-4 {
+  top: ($position-values * 4);
+}
+
+.top-5 {
+  top: ($position-values * 5);
+}
+
+.top-6 {
+  top: ($position-values * 6);
+}
+
+.top-7 {
+  top: ($position-values * 7);
+}
+
+.top-8 {
+  top: ($position-values * 8);
+}
+
+.top-9 {
+  top: ($position-values * 9);
+}
+
+.top--3 {
+  top: -3px;
+}
+
+.start-55 {
+  left: ($position-values * 5.5);
+}
+
+.bottom--1 {
+  bottom: -1% !important;
+}
+
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+.ar-bold {
+  font-family: Helvetica-Neue-Bold-Arabic;
+}
+
+.ar-light {
+  font-family: Helvetica-Neue-Light-Arabic;
+}
+
+.font-1 {
+  font-family: Helvetica-Neue;
+  font-size: $one-rem;
+}
+
+.fa-whatsapp {
+  transform: scaleX(1) !important;
+}
+
+.section_two {
+  background-image: url('./images/landing_dots.png');
+  position: relative;
+  background-color: $purple-jam;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: $white;
+  padding: 6rem !important;
+
+  @media (max-width: 768px) {
+    padding: 5rem 1px !important;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: Helvetica-Neue-Bold;
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  a {
+    & :hover {
+      color: $purple-light;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    background-size: 50%;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: 2px auto 0;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-size: 2.25rem;
+    }
+  }
+
+  .arror {
+    float: right;
+    margin-top: -25%;
+  }
+
+  .space_art_img {
+    float: right;
+    right: 1%;
+  }
+}
+
+.section_two_transform {
+  transform: scaleX(-1);
+
+  div {
+    transform: scaleX(-1);
+  }
+}
+

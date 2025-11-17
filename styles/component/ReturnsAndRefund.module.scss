@@ -1,0 +1,46 @@
+.ReturnsAndRefund {
+    padding-bottom: 10rem;
+    .max-content{
+        max-width: 1140px;
+    }
+   ul{
+       padding-left: 2rem;
+       padding-right: 2rem;
+   }
+    .col-first{
+        h1{
+            font-weight: bold;
+            padding-top: 30px;
+            font: normal normal 1rem Helvetica-Neue-Medium; 
+
+        }
+        h3{
+            padding-top: 30px ;
+            font: normal normal 1rem Helvetica-Neue-Medium; 
+
+        }
+        p{
+           // color: #5a5a5a;
+            padding-top: 30px;
+            font: normal normal 1rem Helvetica-Neue-Light; 
+            @media (min-width:576px) {
+                font: normal normal 1.2rem/31px Helvetica-Neue-Light; 
+            }
+            strong{
+                font: normal normal 1rem Helvetica-Neue-Medium; 
+            @media (min-width:576px) {
+                font: normal normal 1.2rem/31px Helvetica-Neue-Medium; 
+                font-weight: bold;    
+            }
+            }   
+           
+           }
+           ul{
+            @media (min-width:576px) {
+                font: normal normal 1.2rem/31px Helvetica-Neue-Light; 
+            }
+           }
+          
+    }
+ 
+}

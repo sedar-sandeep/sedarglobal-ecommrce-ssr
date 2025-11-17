@@ -1,0 +1,102 @@
+.HomeAutomationService {
+  position: relative;
+  margin: 20px 0;
+  .sedar-btn {
+    margin-top: 20px;
+  }
+  .maxwidth {
+    max-width: 1410px;
+  }
+  .content-section {
+    padding: 35px 0;
+  }
+  .heading-section {
+    position: relative;
+    text-align: center;
+    margin: 35px 0;
+    h1 {
+      font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      letter-spacing: 0px;
+      color: #1b1d1d;
+      margin-bottom: 12px;
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: normal;
+      }
+    }
+    p {
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+      max-width: 727px;
+      margin: 0 auto;
+    }
+  }
+  .service-grid {
+    position: relative;
+    .grid-footer {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      padding: 34px 0;
+      p {
+        font: normal normal 600 1.27rem/23px Helvetica-Neue;
+        font-size: 17.5px;
+        letter-spacing: 0px;
+        color: #ffffff;
+      }
+    }
+  }
+  .Professional-content {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    .col-first {
+      .sedar-btn {
+        margin-top: 50px;
+        margin-left: 30px;
+      }
+      h1 {
+        border-left: 2px solid #fdcc5d;
+        font: normal normal normal 2.8rem/51px Helvetica-Neue-Medium;
+        font-size: 39.2px;
+        letter-spacing: 0px;
+        color: #000000;
+        padding-left: 30px;
+        margin-bottom: 56px;
+        max-width: 371px;
+        @media (max-width: 768px) {
+          font-size: 27.86px;
+          line-height: normal;
+        }
+      }
+      p {
+        padding-left: 30px;
+        font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+        font-size: 17.78px;
+        letter-spacing: 0.54px;
+        color: #000000;
+      }
+    }
+    .col-second {
+      .contentlist {
+        position: relative;
+        .img-group {
+          position: relative;
+          > img {
+            max-height: 633px;
+          }
+          .center-img {
+            position: absolute;
+
+            right: 8%;
+            bottom: -10%;
+          }
+        }
+      }
+    }
+  }
+}

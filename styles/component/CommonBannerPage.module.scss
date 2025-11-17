@@ -1,0 +1,16 @@
+.CommonBannerPage {
+ 
+  position: relative;
+  .bannertext {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      font: normal normal 600 50px/78px Helvetica-Neue;
+      letter-spacing: 1.5px;
+      color: #ffffff;
+      opacity: 1;
+    }
+  }  
+}

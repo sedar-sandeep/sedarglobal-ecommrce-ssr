@@ -1,0 +1,23 @@
+
+.categoryBanner{
+  position: relative;
+ .bannertext{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   p{
+    font: normal normal 600 50px/78px Helvetica-Neue;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    opacity: 1
+   }
+ }
+}
+
+.category_width{
+  h1{
+    font-size: '1.4rem';
+    margin-bottom: '45px';
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "project": "Sedar Global Next.js SSR Application",
+  "last_updated": "2025-01-27",
+  "version": "1.0.0",
+  "completed": [
+    {
+      "date": "2025-01-27",
+      "task": "Fixed UnhandledPromiseRejection error during build process",
+      "description": "Resolved 'Something went wrong' error that was causing build failures with exit code 1",
+      "changes": [
+        "Enhanced axios interceptor error handling in src/utils/axios.js",
+        "Added comprehensive error handling to pageAPI function in src/utils/apis.js",
+        "Fixed unhandled promise rejections in critical pages:",
+        "  - src/pages/[...slug]/index.js (multiple API calls)",
+        "  - src/pages/blog/index.js",
+        "  - src/pages/professionals.js", 
+        "  - src/pages/home-automation.js",
+        "  - src/pages/product/[...slug].js",
+        "Added .catch() blocks to all axiosInstance.get() calls to prevent build failures",
+        "Implemented proper error logging for debugging purposes"
+      ],
+      "impact": "Build process now completes successfully without unhandled promise rejections",
+      "status": "completed"
+    }
+  ],
+  "bugs_fixed": [
+    {
+      "date": "2025-01-27",
+      "bug": "UnhandledPromiseRejection causing build failures",
+      "severity": "high",
+      "description": "Build process was failing with 'Something went wrong' error and exit code 1 due to unhandled promise rejections from API calls",
+      "root_cause": "Missing error handling in axios interceptor and API calls throughout the application",
+      "solution": "Added comprehensive error handling with .catch() blocks to all API calls and improved axios error handling",
+      "files_modified": [
+        "src/utils/axios.js",
+        "src/utils/apis.js",
+        "src/pages/[...slug]/index.js",
+        "src/pages/blog/index.js",
+        "src/pages/professionals.js",
+        "src/pages/home-automation.js",
+        "src/pages/product/[...slug].js"
+      ],
+      "status": "resolved"
+    }
+  ],
+  "in_progress": [],
+  "next_tasks": [
+    "Review build configuration and add proper error boundaries",
+    "Consider implementing global error boundary components",
+    "Add unit tests for error handling scenarios",
+    "Monitor production logs for any remaining unhandled errors"
+  ],
+  "technical_notes": {
+    "error_handling_pattern": "All API calls now use .catch() blocks that log errors and return fallback data structures",
+    "axios_configuration": "Enhanced axios interceptor to provide detailed error information instead of generic messages",
+    "build_verification": "Build process tested locally and completed successfully with exit code 0"
+  }
+}

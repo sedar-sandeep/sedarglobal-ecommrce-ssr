@@ -1,0 +1,19 @@
+{
+   "data":{
+      "children":[
+         {
+            "data":{
+               "subreddit":"Component/ProfileAndOrderLayout/ProfileSidebarLayout",
+               "title":"ProfileAndOrderLayout"
+            }
+         },
+        
+         {
+            "data":{
+               "subreddit":"Component/FooterAnnouncement/FooterAnnouncement",
+               "title":"FooterAnnouncement"
+            }
+         }             
+      ]
+   }
+}

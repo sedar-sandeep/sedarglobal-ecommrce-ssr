@@ -1,0 +1,141 @@
+.Footer2 {
+  .footer_main_menu {
+    padding-bottom: 52px;
+
+    .Customer-Services {
+      padding-left: 2.55rem;
+    }
+
+    .footer-title {
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: 500;
+      padding-bottom: 20px;
+    }
+
+    .footer_main_menu_list {
+      li>a {
+        color: #b1b1b1;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        line-height: 2.86;
+      }
+    }
+  }
+
+  .footercollapse {
+    cursor: pointer;
+
+    .card-header,
+    .card {
+      color: #fff;
+      background-color: inherit;
+    }
+
+    .card {
+      color: #fff;
+      background-color: inherit;
+      border-top: 1px solid rgba(119, 127, 142, 0.1);
+      padding: 0;
+    }
+
+    .card-body {
+      padding: 1rem 2rem;
+    }
+
+    .iconcollapse {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .card-header {
+      padding: 0;
+
+      .customtoggle {
+        padding: 2rem 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footerMid2 {
+  &:nth-child(1) {
+    width: 23%;
+    padding: 0px 15px 0px 15px;
+  }
+
+  &:nth-child(2) {
+    width: 23%;
+    padding: 0px 15px 0px 15px;
+  }
+
+  &:nth-child(3) {
+    width: 20%;
+    padding: 0px 15px 0px 15px;
+  }
+
+  &:nth-child(4) {
+    width: 18%;
+    padding: 0px 15px 0px 15px;
+  }
+  &:nth-child(5) {
+    width: 16%;
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Footer2 {
+    .footer_main_menu {
+      padding-bottom: 0px;
+
+      .footer-title {
+        font-size: 14px;
+
+        color: #ffffff;
+        font-weight: 500;
+        padding-bottom: 35px;
+      }
+
+      .footer_main_menu_list {
+        li>a {
+          color: #b1b1b1;
+          font-size: 1rem;
+          font-weight: 500;
+
+          line-height: 2.86;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* CSS */
+  .Footer2 {
+    .footer_main_menu {
+      padding-bottom: 0px;
+
+      .footer-title {
+        font-size: 14px;
+
+        color: #ffffff;
+        font-weight: 500;
+        padding-bottom: 35px;
+      }
+
+      .footer_main_menu_list {
+        li>a {
+          color: #b1b1b1;
+          font-size: 1rem;
+          font-weight: 500;
+
+          line-height: 2.86;
+        }
+      }
+    }
+  }
+}

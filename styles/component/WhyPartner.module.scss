@@ -1,0 +1,36 @@
+.WhyPartner {
+  position: relative;
+  text-align: center;
+
+  h1 {
+    font-family: Helvetica-Neue-Medium;
+    font-size: 35px;
+    font-weight: normal;
+    font-size: 2.1rem;
+  }
+
+  .videoFrame {
+    padding-top: 35px;
+    max-width: 1188px;
+    margin: 0 auto;
+    img {
+      max-height: 550px;
+    }
+  }
+  .videothumbnail {
+    position: relative;
+  }
+  .playicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .WhyPartner .playicon {
+    width: 50px;
+  }
+}

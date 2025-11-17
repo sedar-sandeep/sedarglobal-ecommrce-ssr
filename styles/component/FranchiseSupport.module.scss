@@ -1,0 +1,191 @@
+.FranchiseSupport {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  @media (max-width: 768px) {
+    padding: 1rem 0;
+  }
+
+  .max-content {
+    max-width: 1378px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    h1,h2 {
+      border-left: 2px solid #ffd64f;
+      font-size: 35px;
+      padding-left: 30px;
+      margin: 15px 0;
+    }
+
+    @media (max-width: 576px) {
+      h1 {
+        border-left: 0px solid #ffd64f;
+        text-align: center;
+        font-size: 27.86px;
+        line-height: normal;
+      }
+
+      h2 {
+        border-left: 0px solid #ffd64f;
+        text-align: center;
+        font-size: 27.86px;
+        line-height: normal;
+      }
+
+      text-align: center;
+    }
+  }
+
+  .sliderNavigation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    bottom: 24px;
+    z-index: 11;
+  }
+
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute;
+    left: 20px;
+    width: auto;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #000;
+  }
+
+  .swiper-pagination-bullet {
+    margin: 0 10px;
+  }
+
+  .FranchiseSupportSwiper {
+    padding-bottom: 95px;
+
+    @media (max-width: 768px) {
+      padding: 1rem 0;
+      padding-bottom: 4rem;
+    }
+
+    .overly {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0.72;
+      cursor: pointer;
+    }
+
+    .swiper-slide {
+      &:hover {
+        .overly-text {
+          opacity: 1;
+          transition: visibility 0s, opacity 0.2s linear;
+        }
+
+        .overly,
+        .slidetext {
+          opacity: 0;
+        }
+      }
+    }
+
+    .overly-text {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+
+      .text-block {
+        max-width: 80%;
+        height: 80%;
+        overflow: hidden;
+
+        h5 {
+          font: normal normal normal 1.6rem Helvetica-Neue-Bold;
+          letter-spacing: 0px;
+          color: #000000;
+          margin-bottom: 25px;
+        }
+
+        p {
+          font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+          font-size: 17.78px;
+          letter-spacing: 0.54px;
+          color: #000000;
+        }
+      }
+    }
+
+    .slidetext {
+      position: absolute;
+      bottom: 10%;
+      left: 10%;
+      color: #fff;
+      font-weight: bold;
+      z-index: 12;
+    }
+  }
+
+  .swiper-next,
+  .swiper-prev {
+    padding: 0 7px;
+  }
+
+  .heading.max-content p {
+    padding-left: 35px;
+
+    @media (max-width: 576px) {
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .FranchiseSupport-carousel {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+    .main_div {
+      max-width: 1654px;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .main_width {
+      width: 1742px;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .FranchiseSupport {
+    .sliderNavigation {
+
+      .swiper-next,
+      .swiper-prev {
+        position: relative !important;
+        padding: 10px;
+      }
+    }
+  }
+}

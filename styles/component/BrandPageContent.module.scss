@@ -1,0 +1,32 @@
+.BrandPageContent {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 72px;
+  .max-width {
+    max-width: 1416px;
+    margin: 0 auto;
+  }
+  .headingsection {
+    h1 {
+      font: normal normal normal 2.8rem/51px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      letter-spacing: 0px;
+      color: #000000;
+      border-left: 2px solid #ffd64f;
+      padding-left: 22px;      
+      max-width: 400px;
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: normal;
+       }
+    }
+    p {
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      letter-spacing: 0.54px;
+      font-size: 17.78px;
+      color: #000000;
+      max-width: 612px;
+
+    }
+  }
+}

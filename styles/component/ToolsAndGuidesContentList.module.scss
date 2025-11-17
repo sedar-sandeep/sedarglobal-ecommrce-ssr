@@ -1,0 +1,62 @@
+.ToolsAndGuidesContentList {
+  position: relative;
+  margin-bottom: 74px;
+  @media (max-width: 768px) {
+    margin-bottom: 24px;
+  }
+  .max-content {
+    max-width: 1364px;
+    margin: 0 auto;
+  }
+
+  .col-first {
+    .sedar-btn {
+      margin-top: 15px;
+      margin-left: 30px;
+    }
+    h1 {
+      border-left: 2px solid #fdcc5d;
+      font: normal normal normal 2.8rem/51px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      color: #000000;
+      padding-left: 30px;
+      margin-bottom: 56px;
+      max-width: 400px;
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: normal;
+        margin-bottom: 26px;
+      }
+    }
+    p {
+      padding-left: 30px;
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+    }
+  }
+  .col-second {
+    .contentlistImage {
+      padding-left: 103px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .ToolsAndGuidesContentList .col-second .contentlistImage {
+    padding-left: 0px;
+  }
+  .ToolsAndGuidesContentList .col-first p {
+    padding-left: 0px;
+  }
+  .ToolsAndGuidesContentList .col-first .sedar-btn {
+    margin-left: 0px;
+  }
+  .ToolsAndGuidesContentList .col-first h1 {
+    font: normal normal bold 27px/40px Helvetica-Neue;
+  }
+}
+
+@media (max-width: 400px) {
+}

@@ -1,0 +1,112 @@
+.ImageGalleryPopup {
+  background-color: rgba(0, 0, 0, 0.565);
+}
+
+.ProjectImageGalleryPopup {
+
+  
+  // height: 100%;
+  // width: 100%;
+  // position: fixed;
+  // z-index: 111;
+  // top: 0;
+  // left: 0;
+  // background-color: rgb(0, 0, 0);
+  // background-color: rgba(0, 0, 0, 0.9);
+  .modal-body,
+  .modal-content {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    img {
+      max-height: 350px;
+      @media (min-width: 576px) {
+        max-height: 599px;
+      }
+    }
+  }
+  .swiper-pagination-fraction {
+    color: #fff;
+    position: fixed;
+    left: 0%;
+    width: 8%;
+    top: 10%;
+  }
+  // .image-swiper {
+  //   width: 85%;
+  //   margin: 0 auto;
+  //   position: relative;
+  //   text-align: center;
+  //   height: 100%;
+  //   display: flex;
+  //   align-items: center;
+    .swiper-initialized {
+      height: 83%;
+      img {
+        height: 95%;
+      }
+      @media (max-width: 992px) {
+        height: auto;
+        img {
+          height: auto;
+        }
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #ffffff !important;
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+    @media (max-width: 992px) {
+      width: 100%;
+      padding: 0;
+      .swiper-pagination {
+        display: none;
+      }
+    }
+  //}
+  .close-button {
+    position: fixed;
+    top: 8%;
+    right: 5%;
+    z-index: 11;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    button {
+      color: #fff;
+      font-size: 1.5rem;
+      background-color: transparent;
+
+      &:not(:disabled):not(.disabled):active:focus {
+        box-shadow: none;
+        border: none;
+      }
+      &:focus:active {
+        background-color: transparent;
+      }
+    }
+  }
+  .slide-number {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 11;
+    span {
+      font-size: 16px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+.ProductImageGalleryPopup {
+  .swiper-slide {
+    text-align: center;
+  }
+}

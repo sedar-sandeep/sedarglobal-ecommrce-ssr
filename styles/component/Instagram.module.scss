@@ -1,0 +1,92 @@
+.Instagram {
+  position: relative;
+  padding-bottom: 25px;
+
+  ._wPDyp {
+    flex-basis: calc(100% / 2 - 10px);
+  }
+
+  strong {
+    font-size: 17.78px;
+    font-weight: bold;
+  }
+
+  .InstagramCollection {
+    max-width: 1394px;
+  }
+
+  .InstagramCollection-text {
+    padding: 100px 200px;
+
+    p {
+      font: normal normal 300 1.27rem/32px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+      width: 30rem;
+    }
+
+    .desc {
+      h2 {
+        font: normal normal 300 1.27rem/32px Helvetica-Neue-Light;
+        font-size: 17.78px;
+      }
+    }
+  }
+
+  .instagram_image {
+    // margin-right: -18px;
+    margin-bottom: 15px;
+  }
+
+  .insta-icon {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+}
+
+.Follow-sedarglobal {
+  padding-top: 50px;
+
+  a {
+    border-bottom: 2px solid #000;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    font: normal normal normal 1rem/17px Helvetica-Neue-Medium;
+    font-size: 14px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 992px) {
+  .Instagram .InstagramCollection-text {
+    padding: 0.5rem;
+  }
+
+  .Instagram .InstagramCollection-text p {
+    width: auto;
+    font-size: 17.78px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Instagram .InstagramCollection-text {
+    padding-bottom: 10%;
+    text-align: center;
+    padding: 5px 15px 0px 15px;
+  }
+
+  .Instagram {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+
+  .InstagramCollection {
+    background: none !important;
+  }
+
+  .Instagram-content-row {
+    flex-direction: column-reverse;
+  }
+}

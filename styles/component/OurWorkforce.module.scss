@@ -1,0 +1,88 @@
+.OurWorkforce {
+  //padding-top: 3rem;
+  //  padding-bottom: 3rem;
+  .max-content {
+    max-width: 1362px;
+  }
+
+  .OurWorkforce {
+    position: relative;
+    .col-first {
+      color: #000;
+      @media (min-width: 768px) {
+        width: 75%;
+      }
+
+      h1 {
+        letter-spacing: 1.28px;
+        border-left: 2px solid #ffd64f;
+        padding-left: 30px;
+        font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+        font-size: 39.2px;
+        @media (max-width: 768px) {
+          font-size: 27.86px;
+          line-height: normal;
+        }
+      }
+      p {
+        padding: 1rem 2rem;
+        width: 95%;
+        font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+        font-size: 17.78px;
+        letter-spacing: 0.54px;
+        color: #000000;
+        @media (max-width: 768px) {
+          padding: 1rem 0rem;
+        }
+      }
+      a {
+        border-bottom: 2px solid #fdcc5d;
+        padding-bottom: 3px;
+        font: normal normal normal 1.1rem Helvetica-Neue-Medium;
+        letter-spacing: 0.45px;
+        color: #434343;
+      }
+      .boxText {
+        position: relative;
+        width: 70%;
+        float: right;
+        margin-right: 6em;
+        padding-top: 1em;
+      }
+    }
+    .Contact-link {
+      padding: 1rem 2rem;
+      a {
+        color: #000;
+        border-bottom: 2px solid #ffd64f;
+        font-size: 15.4px;
+        line-height: 2;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .col-second img {
+    order: 1;
+  }
+  .OurWorkforce .OurWorkforce .col-first h1 {
+    font: normal normal bold 20px/30px Helvetica-Neue;
+  }
+  .OurWorkforce .OurWorkforce .col-first p {
+    padding-left: 0rem;
+    width: 100%;
+    // font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+    // letter-spacing: 0.54px;
+    // color: #000000;
+  }
+  .OurWorkforce .OurWorkforce .Contact-link {
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .OurWorkforce .OurWorkforce .col-first {
+    order: 2;
+    padding-top: 70px;
+  }
+}

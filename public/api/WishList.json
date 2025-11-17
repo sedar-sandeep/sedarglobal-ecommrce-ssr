@@ -1,0 +1,18 @@
+{
+   "data":{
+      "children":[        
+         {
+            "data":{
+               "subreddit":"Component/WishList/WishList",
+               "title":"WishList"               
+            }
+         },          
+         {
+            "data":{
+               "subreddit":"Component/FooterAnnouncement/FooterAnnouncement",
+               "title":"FooterAnnouncement"
+            }
+         }      
+      ]
+   }
+}

@@ -1,0 +1,103 @@
+@media (max-width: 576px) {
+  .AboutusBringWorld_wrapper {
+    margin-bottom: 5rem;
+    .mobile_image {
+      margin-bottom: -8rem;
+    }
+  }
+}
+.AboutusBringWorld {
+  background-color: #faf0e3;
+  padding-top: 88px;
+  position: relative;
+  @media (max-width: 1440px) {
+    padding: 15px;
+  }
+  .max-content {
+    max-width: 1380px;
+  }
+  
+  .col-first {
+    position: relative;
+   // width: 45%;
+   // margin-bottom: -50px;
+    h1 {
+      border-left: 2px solid #ffd64f;
+      font: normal normal normal 2.8rem/53px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #000000;
+      padding-left: 50px;
+    }
+    img {
+      margin-top: 98px;
+     // margin-left: 50px;
+      @media screen and (max-width:1200px) {
+        margin-left: 0;
+      }
+    }
+  }
+  .col-second {
+    position: relative;
+    width: 55%;
+
+    p {
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+      margin-bottom: 20px;
+    }
+  }
+  .AboutusBringWorldContent {
+    position: relative;
+    max-width: 608px;
+    margin-left: 144px;
+    @media screen and (max-width:1200px) {
+      margin-left: 0;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .AboutusBringWorld {
+    padding-top: 48px;
+    .col-first {
+      width: 100%;
+      flex-basis: 100%;
+      margin-bottom: auto;
+      text-align: center;
+      h1 {
+        border-left: 2px solid #ffd64f;
+        font: normal normal normal 2rem/33px Helvetica-Neue-Medium;
+        letter-spacing: 0px;
+        color: #000000;
+        padding-left: 22px;
+        text-align: left;
+      }
+      // img {
+      //   margin-top: 18px;
+      //   margin-left: 0px;
+      //   width: 100%;
+      // }
+    }
+    .col-second {
+      width: 100%;
+      flex-basis: 100%;
+
+      p {
+        font: normal normal 300 1.15rem/28px Helvetica-Neue-Light;
+        padding-top: 20px;
+      }
+      a {
+        display: block;
+        margin: 20px auto;
+        font: normal normal 300 15px Helvetica-Neue-Bold;
+        letter-spacing: 0px;
+        width: 50%;
+      }
+    }
+    .AboutusBringWorldContent {
+      margin-left: 0px;
+      max-width: 100%;
+    }
+  }
+}

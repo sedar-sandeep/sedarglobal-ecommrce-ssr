@@ -1,0 +1,97 @@
+.ErrorStepPopup {
+}
+
+.removealert {
+  text-align: center;
+  .border-button {
+    position: relative;
+    width: 100%;
+    max-width: 128px;
+    display: inline-block;
+    margin-top: 15px;
+    margin: 10px 15px;
+    a {
+      border: 1px solid #cacbd0;
+      border-radius: 0px;
+      display: block;
+      text-align: center;
+      padding: 3px 0px;
+      width: 100%;
+    }
+    span {
+      font: normal normal normal 1rem/17px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #282c3f;
+    }
+  }
+  .color-button {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+    a {
+      background-color: #fdcc5d;
+      display: block;
+      text-align: center;
+      padding: 7px 0px;
+      border-radius: 0px;
+    }
+    span {
+      font: normal normal normal 15px/18px Helvetica-Neue-Bold;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+  }
+  
+
+  .alerttext {
+    p {
+      color: #282c3f;
+      font: normal normal normal 1.15rem/16px Helvetica-Neue;
+      letter-spacing: 0px;
+      margin-bottom: 10px;
+    }
+    label {
+      text-align: center;
+      font: normal normal normal 1rem/20px Helvetica-Neue;
+      letter-spacing: 0.28px;
+      color: #5a5a5a;
+    }
+  }
+  &.SuccessStepPopup {
+    .action-btn {
+      .border-button {
+        margin: 0;
+        max-width: 100%;
+        a {
+          padding: 6px 0px;
+        }
+      }
+      .color-button {
+        margin: 0;
+        max-width: 100%;
+        a {
+          padding: 7px 0px;
+        }
+      }
+    }
+    
+    .alerttext {
+      p {
+        // font: normal normal normal 21px/18px Helvetica-Neue;
+        letter-spacing: 0.42px;
+        color: #000000;
+      }
+    }
+  }
+
+   .edit {
+    text-decoration: underline;
+    font: normal normal normal 12px/25px Helvetica-Neue;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.48;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,142 @@
+.Franchisevisionslider {
+  position: relative;
+  padding-top: 120px;
+
+  .max-content {
+    max-width: 1240px;
+  }
+
+  .FranchisevisionSwiper {
+    .swiper-wrapper {
+      padding-bottom: 5rem;
+    }
+    .slidetext1 {
+      h1 {
+        font: normal normal normal 2.5rem/48px Helvetica-Neue-Medium;
+        letter-spacing: 0.8px;
+        color: #000000;
+        display: contents;
+        max-width: 347px;
+        font-size: 39.2px;
+      }
+      p {
+        padding-top: 20px;
+        font: normal normal 300 1.11rem/31px Helvetica-Neue-Light;
+        font-size: 17.78px;
+        letter-spacing: 0.54px;
+        color: #000000;
+        max-width: 448px;
+      }
+    }
+
+    .swiper-slide {
+      &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        background-color: #707070;
+        bottom: 0;
+        left: 0px;
+        opacity: 0.22;
+        margin-left: 15px;
+      }
+      &.swiper-slide-active {
+        &::after {
+          background-color: transparent;
+        }
+      }
+      .swiperslide-Row {
+        margin: 0 40px;
+      }
+      &:nth-child(even) {
+        img {
+          margin-top: 40px;
+        }
+        .swiperslide-Row {
+          flex-direction: column-reverse;
+          @media (max-width: 576px) {
+            flex-direction: column;
+          }
+        }
+      }
+      &:nth-child(odd) {
+        img {
+          margin-bottom: 40px;
+          @media (max-width: 576px) {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .sliderNavigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+
+    .swiper-prev {
+      position: absolute;
+      left: -5%;
+      z-index: 1;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+    .swiper-next {
+      position: absolute;
+      right: -3%;
+      z-index: 1;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #000;
+  }
+  .swiper-pagination-bullet {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .Franchisevisionslider {
+    padding-top: 40px;
+
+    .sliderNavigation {
+      padding: 15px;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      top: auto;
+      .swiper-prev {
+        left: auto;
+      }
+      .swiper-next {
+        right: auto;
+      }
+    }
+    .swiper-next,
+    .swiper-prev {
+      position: relative !important;
+      padding: 10px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .Franchisevisionslider .FranchisevisionSwiper .slidetext1 h1 {
+    font-size: 27.86px;
+    line-height: normal;
+    padding-top: 20px;
+  }
+  .Franchisevisionslider .FranchisevisionSwiper .swiper-slide .swiperslide-Row {
+    margin: 0 0px;
+  }
+}

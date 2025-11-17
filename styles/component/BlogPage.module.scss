@@ -1,0 +1,232 @@
+.BlogPage {
+  position: relative;
+  .blog-content {
+    position: relative;
+  }
+  .max-width {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .blog-basic-bottom {
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+  .blog-basic {
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  .page-breadcrumb {
+    ol {
+      background-color: transparent;
+      font: normal normal normal 1rem/34px Helvetica-Neue-Medium;
+      letter-spacing: 0.42px;
+      padding: 22px 0;
+      a {
+        color: #000000;
+        opacity: 0.61;
+      }
+    }
+  }
+  .heading-section {
+    h1 {
+      font: normal normal normal 2.5rem/49px Helvetica-Neue-Medium;
+      letter-spacing: 0px;
+      color: #000000;
+      padding-left: 32px;
+      border-left: 2px solid #ffd64f;
+      @media (max-width: 992px) {
+        font-size: 27.86px;
+        line-height: normal;
+      }
+    }
+  }
+  .blogpage-tab {
+    .nav-item {
+      .nav-link {
+        font: normal normal normal 1.1rem/18px Helvetica-Neue-Medium;
+        letter-spacing: 0.15px;
+        color: #000000;
+        opacity: 0.86;
+        background-color: transparent;
+        padding: 5px;
+        margin: 0 1.5rem;
+        white-space: nowrap;
+        &.active {
+          letter-spacing: 0.15px;
+          color: #000000;
+          background-color: transparent;
+          border-bottom: 2px solid #fdcc5d;
+          opacity: 1;
+          padding-bottom: 5px;
+          border-radius: 0;
+        }
+        @media (max-width: 576px) {
+          border-bottom: 1px solid #888;
+          border-radius: 0;
+          margin: 0;
+          padding: 10px 1rem;
+          color: #bdbdbd;
+          &.active {
+            border-radius: 0;
+            color: #000000;
+            padding: 10px 1rem;
+          }
+        }
+      }
+    }
+  }
+  .blog-search {
+    position: relative;
+    &::before {
+      content: '|';
+      position: relative;
+      padding-right: 1.5rem;
+      @media (max-width: 992px) {
+        padding-right: 0.5rem;
+      }
+    }
+  }
+  .heading-tab {
+    padding: 35px 0;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+  }
+
+  .BlogList {
+    position: relative;
+
+    .desc h6 {
+      color: #989898;
+      padding: 5px 0 5px 22px;
+      margin-top: 15px;
+    }
+
+    .TipsThreads-txt {
+      color: #989898;
+      padding: 5px 0 5px 22px;
+    }
+
+    .TipsThreads-details p {
+      border-left: 2px solid #ffd64f;
+      padding-left: 22px;
+      margin-top: 35px;
+      font: normal normal 1.27rem/25px Helvetica-Neue-Medium;
+      letter-spacing: 0.18px;
+    }
+    .TipsThreads-details {
+      padding: 1rem;
+      align-items: center;
+      .Collection-text.col-md-6.col-sm-12 {
+        @media (min-width: 768px) {
+          margin-left: auto;
+          max-width: 562px;
+          padding: 25px;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 2rem 0;
+    }
+    .blog-grid-lg {
+      position: relative;
+      display: block;
+      &.sm {
+        max-width: 494px;
+        margin-left: auto;
+      }
+      .content-section {
+        padding: 35px 0;
+        h3 {
+          font: normal normal normal 1.27rem/25px Helvetica-Neue-Medium;
+          letter-spacing: 0.18px;
+          color: #000000;
+          border-left: 2px solid #fdcc5d;
+          padding-left: 20px;
+          margin-bottom: 16px;
+          opacity: 1;
+        }
+        p {
+          font: normal normal normal 1rem/17px Helvetica-Neue-Medium;
+          letter-spacing: 0px;
+          color: #000000;
+          opacity: 0.56;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  .BlogListSm {
+    position: relative;
+    padding: 65px 0;
+    @media (max-width: 768px) {
+      padding: 2rem 0;
+    }
+    img {
+      width: 100%;
+    }
+    .blog-grid {
+      position: relative;
+      display: block;
+      margin: 0 2rem;
+      @media (max-width: 768px) {
+        margin: 0 1rem;
+      }
+      .content-section {
+        max-width: 381px;
+        padding: 35px 0;
+        h3 {
+          font: normal normal normal 1.27rem/25px Helvetica-Neue-Medium;
+          letter-spacing: 0.18px;
+          color: #000000;
+          border-left: 2px solid #fdcc5d;
+          padding-left: 20px;
+          margin-bottom: 16px;
+          opacity: 1;
+        }
+        p {
+          font: normal normal normal 1.27rem/25px Helvetica-Neue-Medium;
+          letter-spacing: 0px;
+          color: #000000;
+          opacity: 0.56;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.BlogPost {
+  p,
+  blockquote,
+  li {
+    font-size: medium;
+  }
+  figure {
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 15px;
+  }
+  .container {
+    a {
+      color: #fdcc5d;
+    }
+  }
+  ul{
+    list-style-type: disc;
+    padding: 0 15px;
+    li{
+      padding: auto;
+    }
+  }
+}

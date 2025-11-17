@@ -1,0 +1,72 @@
+@import './StepPopup.module.scss';
+
+.sedar_notification {
+  
+  padding: 0;
+  margin: 0;
+  background-color: #eaaf60;
+  position: absolute;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  button.btn-close {    
+    color: #ffffff;
+    opacity: 1;
+    font-size: 10px;
+    top: 50%;
+    transform: translate(-50%,-48%);
+  }
+  .notificationtxt {
+    display: flex;
+    justify-content: center;
+    padding: 24px 26px 22px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    align-items: center;
+    img {
+      margin-top: -5px;
+      padding-right: 12px;
+    }
+    P {
+      padding-right: 10px;
+    }
+    span {
+      margin: -3px;
+
+      a {
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .sedar_notification {   
+    .notificationtxt {     
+      padding: 20px;
+      font-size: 13px;
+      img {
+        margin-top: -5px;
+        padding-right: 12px;
+      }
+      
+      span {
+        margin: -4px;
+        a {
+          color: #ffffff;
+          border-bottom: 1px solid #ffffff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sedar_notification {
+    display: none;
+  }
+}

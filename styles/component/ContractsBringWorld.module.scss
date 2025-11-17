@@ -1,0 +1,75 @@
+.ContractsBringWorld {
+  .AboutusBringWorld {
+    background-color: #f5f5f5;
+    padding-top: 80px;
+    position: relative;
+
+    @media (min-width: 768px) {
+      //max-height: 700px;
+      margin-bottom: 11%;
+    }
+    //  max-height: 761px;
+    .max-content {
+      max-width: 1362px;
+    }
+
+    .item-1 {
+      //   display: flex;
+      //    align-items: center;
+
+      @media (min-width: 768px) {
+        padding-top: 3rem !important;
+      }
+    }
+    .col-first {
+      @media (min-width: 768px) {
+        padding: 0 3%;
+      }
+      h1 {
+        letter-spacing: 1.28px;
+        border-left: 2px solid #ffd64f;
+        padding: 5px 0 5px 22px;
+        font: normal normal normal 2.5rem/49px Helvetica-Neue-Medium;
+        font-size: 39.2px;
+        @media (max-width: 768px) {
+          font-size: 27.86px;
+          line-height: normal;
+        }
+      }
+      img {
+        @media (min-width: 768px) {
+          //max-height: 700px;
+          margin-bottom: -20%;
+          padding-left: 9%;
+        }
+      }
+      p {
+        font: normal normal 300 1.1rem/31px Helvetica-Neue-Light;
+        font-size: 17.78px;
+        letter-spacing: 0.54px;
+        color: #000000;
+        text-align: start;
+        width: 95%;
+      }
+    }
+    .col-second {
+      p {
+        letter-spacing: 0.54px;
+        line-height: 31px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .ContractsBringWorld .AboutusBringWorld {
+    max-height: none;
+  }
+  .ContractsBringWorld .AboutusBringWorld .col-first h1 {
+    font: normal normal bold 25px/30px Helvetica-Neue;
+  }
+  .ContractsBringWorld .AboutusBringWorld .col-first img {
+    padding-left: 0%;
+  }
+}

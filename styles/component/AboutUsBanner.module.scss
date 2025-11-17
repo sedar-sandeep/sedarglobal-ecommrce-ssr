@@ -1,0 +1,54 @@
+.AboutUsBanner {
+  position: relative;
+  cursor: pointer;
+
+  .AboutUsBanner_img {
+    max-height: 646px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .overlyColor {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.45;
+  }
+  .AboutUsBanner_text {
+    @media screen and (max-width:768px) {
+      display: none;
+    }
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      font-size: 49px;
+      line-height: 55px;
+      padding-bottom: 5rem;
+    }
+    .watchvideo {
+      font-size: 1rem;
+      line-height: 17px;
+      color: #ffffff;
+      font-weight: bold;
+      border-bottom: 2px solid #ffc700;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 2.8px;
+      background: transparent;
+      &.btn:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .AboutUsBanner .AboutUsBanner_text h1 {
+    font: normal normal 600 22px/27px Helvetica-Neue;
+  }
+}

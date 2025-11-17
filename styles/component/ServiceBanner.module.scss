@@ -1,0 +1,52 @@
+.ServiceBanner {
+    position: relative;
+    .overly {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      background-color: #000000;
+      opacity: 0.45;
+    }
+    .breadcrumb {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      
+      font-size: 1rem;
+      letter-spacing: 0.42px;
+      color: #ffffff;
+      opacity: 1;
+      background: transparent;
+    }
+    .heading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: normal;
+        line-height: 64px;
+        letter-spacing: 1.5px;
+        color: #ffffff;
+      }
+
+     
+    }
+    .home{
+      color: #fff;
+      a{
+        color: #fff;
+      }
+    }
+   
+}
+
+@media (max-width: 767px) { 
+  .ServiceBanner .heading h1{
+      font-size: 20px;
+  }
+}

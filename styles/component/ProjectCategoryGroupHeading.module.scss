@@ -1,0 +1,46 @@
+.ProjectCategoryGroupHeading {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 72px;
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .max-width {
+    max-width: 1416px;
+    margin: 0 auto;
+  }
+  .headingsection {
+    position: relative;
+
+    .headingtext {
+      max-width: 376px;
+      font: normal normal normal 2.8rem/49px Helvetica-Neue-Medium;
+      font-size: 39.2px;
+      @media (max-width: 768px) {
+        font-size: 27.86px;
+        line-height: normal;
+      }
+      letter-spacing: 0px;
+      color: #000000;
+      border-left: 2px solid #ffd64f;
+      padding-left: 32px;
+      margin-bottom: 30px;
+    }
+  }
+  .sedar-btn {
+    margin-top: 20px;
+    max-width: 300px;
+  }
+  .contentsection {
+    position: relative;
+
+    p {
+      font: normal normal 300 1.27rem/31px Helvetica-Neue-Light;
+      font-size: 17.78px;
+      letter-spacing: 0.54px;
+      color: #000000;
+      max-width: 650px;
+    }
+  }
+}

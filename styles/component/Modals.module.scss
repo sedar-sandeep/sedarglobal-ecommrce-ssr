@@ -1,0 +1,181 @@
+.loginPopup {
+  input {
+    top: 15%;
+    font-size: 13px;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+  .login_with input {
+	margin-top: 10px;
+}
+}
+
+.orange_color_bg {
+  background: rgb(234, 175, 96) none repeat scroll 0% 0%;
+  color: #000;
+
+  &:hover {
+    background: rgb(234, 175, 96) none repeat scroll 0% 0%;
+    color: #000;
+  }
+}
+
+.orange_color_text {
+  color: rgb(234, 175, 96);
+  cursor: pointer;
+}
+
+.signup_link {
+  text-align: center;
+  padding: 10px;
+}
+
+.loginPopup .modal-header {
+  padding: 0.3rem 1rem;
+}
+
+.pwd_show {
+  margin-top: -20px;
+  color: #959191;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  left: 86%;
+}
+
+.login_btn {
+  width: 350px;
+  border-color: #fdcc5d !important;
+  background-color: #fdcc5d !important;
+  box-shadow: none !important;
+
+  .ladda-spinner {
+    left: 50%;
+    position: absolute;
+    margin-top: 15px;
+  }
+}
+
+.user_input_wrp {
+  position: relative;
+}
+
+.inputText {
+  box-shadow: none;
+}
+
+.user_input_wrp {
+  .inputText:focus {
+    border-width: medium medium 2px;
+  }
+
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 4px;
+    left: 10px;
+    transition: 0.2s ease all;
+    font-family: Helvetica-Neue;
+  }
+
+  input:focus ~ .floating-label {
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    opacity: 0.3;
+  }
+}
+
+.has-content.inputText ~ .floating-label {
+  top: -15px;
+  left: 10px;
+  font-size: 12px;
+  opacity: 0.3;
+}
+
+.SearchModal {
+  background-color: #000000ba;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 15px;
+
+  .modal-content {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .close-button {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    color: #fff;
+    opacity: 1;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .searchbar {
+    .searchbar_form {
+      border-bottom: 1px solid #dfdfdf;
+      outline: none;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 9px;
+    }
+
+    .searchicon_inp {
+      border: none;
+      // padding: 0 0 0px 18px;
+      outline: none;
+      opacity: 1;
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: 0.28px;
+      font-family: Helvetica-Neue-Light;
+      height: 100%;
+      width: 100%;
+      background: transparent;
+      color: #fff;
+
+      .rbt-menu {
+        padding: 5px;
+
+        .dropdown-item {
+          padding: 5px 10px;
+        }
+      }
+    }
+
+    .rbt-input-main.form-control {
+      border: none;
+      color: #fff;
+      background-color: transparent;
+    }
+  }
+}
+
+#SearchProduct {
+  overflow: hidden auto !important;
+  font: normal normal normal 0.8rem Helvetica-Neue-Light;
+  color: #000;
+
+  a {
+    display: block;
+    padding: 0;
+    font: normal normal normal 0.8rem Helvetica-Neue-Light;
+    color: #000;
+  }
+
+  .custom-link {
+    display: block;
+    padding: 5px 8px;
+
+    span {
+      display: block;
+    }
+  }
+}

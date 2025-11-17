@@ -1,0 +1,17 @@
+.ProductListThumbSlider {
+    position: relative;
+    #thumbs{
+        padding: 5px 0;
+        cursor: pointer;
+    }
+    .swiper-button-prev:after, .swiper-button-next:after{
+        color: #fff;
+        font-size: 20px;
+    }
+    .swiper-initialized-thumbs{
+        img{
+            max-width: 88px;
+            
+        }
+    }
+}

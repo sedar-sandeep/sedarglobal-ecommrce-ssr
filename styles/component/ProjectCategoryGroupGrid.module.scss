@@ -1,0 +1,39 @@
+.ProjectCategoryGroupGrid {
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  .max-width {
+    max-width: 1490px;
+    margin: 0 auto;
+  }
+  .grid-content {
+    position: relative;
+    max-width: 391px;
+    margin: 0 auto;
+    padding-bottom: 83px;
+    @media (max-width:767px) {
+      padding-bottom: 3rem;
+    }
+  }
+  .project-info {
+    position: relative;
+    max-width: 391px;
+    .bottomheading {
+      font: normal normal normal 1.27rem/23px Helvetica-Neue-Medium;
+      letter-spacing: 0.54px;
+      color: #000000;
+      margin-bottom: 12px;
+      margin-top: 34px;
+      @media (max-width: 576px) {
+        font-size: 1rem;
+      }
+    }
+    .Link {
+      font: normal normal normal 15px/18px Helvetica-Neue-Medium;
+      letter-spacing: 0.45px;
+      color: #434343;
+      border-bottom: 2px solid #fdcc5d;
+      padding-bottom: 4px;
+    }
+  }
+}
