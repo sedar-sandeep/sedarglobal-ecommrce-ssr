@@ -66,7 +66,7 @@ function ProductList(props) {
                 />
                 <Script
                     type="text/javascript"
-                    strategy="beforeInteractive"
+                    strategy="afterInteractive"
                     src="https://checkout.tabby.ai/tabby-promo.js"
                 /> */}
                     <Script
@@ -98,7 +98,7 @@ function ProductList(props) {
             <div>
                 <Script
                     type="text/javascript"
-                    strategy="beforeInteractive"
+                    strategy="afterInteractive"
                     src="https://checkout.tabby.ai/integration.js"
                 />
                 <Script
@@ -108,7 +108,7 @@ function ProductList(props) {
                 />
                 <Script
                     type="text/javascript"
-                    strategy="beforeInteractive"
+                    strategy="afterInteractive"
                     src="https://cdn.tamara.co/widget-v2/tamara-widget.js"
                 />
 
