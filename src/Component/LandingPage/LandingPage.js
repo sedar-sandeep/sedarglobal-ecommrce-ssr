@@ -211,15 +211,15 @@ function LandingPage(props) {
                                 marginTop: "-20px"
                             }}
                         >
-                            <div className="d-flex justify-content-center gap-1 flex-wrap mb-2">
+                            // <div className="d-flex justify-content-center gap-1 flex-wrap mb-2">
 
-                                <p className="mb-1 small mobile-hide" style={{ fontWeight: 200, fontSize: width >= 992 ? '0.95rem' : '0.70rem' }}>
-                                    {OnlineStoreText[api_cn_iso]?.['en'] ? OnlineStoreText[api_cn_iso]?.['en'] : 'Global'}
-                                </p>
-                                <p className="mb-1 small mobile-hide" style={{ fontWeight: 200, fontSize: width >= 992 ? '0.95rem' : '0.70rem', fontFamily: 'Helvetica-Neue-Light-Arabic' }}>
-                                    | {OnlineStoreText[api_cn_iso]?.['ar'] ? OnlineStoreText[api_cn_iso]?.['ar'] : 'عالمي'}
-                                </p>
-                            </div>
+                            //     <p className="mb-1 small mobile-hide" style={{ fontWeight: 200, fontSize: width >= 992 ? '0.95rem' : '0.70rem' }}>
+                            //         {OnlineStoreText[api_cn_iso]?.['en'] ? OnlineStoreText[api_cn_iso]?.['en'] : 'Global'}
+                            //     </p>
+                            //     <p className="mb-1 small mobile-hide" style={{ fontWeight: 200, fontSize: width >= 992 ? '0.95rem' : '0.70rem', fontFamily: 'Helvetica-Neue-Light-Arabic' }}>
+                            //         | {OnlineStoreText[api_cn_iso]?.['ar'] ? OnlineStoreText[api_cn_iso]?.['ar'] : 'عالمي'}
+                            //     </p>
+                            // </div>
                             <div className="d-flex justify-content-center gap-3 flex-wrap" style={{ fontWeight: 200, fontSize: width >= 992 ? '0.95rem' : '0.80rem' }}>
                                 <span>
                                     <a href="mailto:wecare@sedarglobal.com" className="text-white text-decoration-none" style={{ fontWeight: 200 }}>
@@ -251,24 +251,24 @@ function LandingPage(props) {
                                         {t('Find Your Store')}
                                     </a>
                                 </span>
-                                <span style={{ fontWeight: 200 }}>
-                                    {/* Dynamic country flag */}
-                                    <img
-                                        src={`/assets/images/flags/${api_cn_iso ? api_cn_iso.toLowerCase() : 'global'}.svg`}
-                                        alt={api_cn_iso ? api_cn_iso : 'UAE'}
-                                        style={{ width: 24, height: 16, verticalAlign: 'middle', marginRight: 4 }}
-                                        onError={e => { e.target.onerror = null; e.target.src = '/assets/images/flags/global.svg'; }}
-                                    />
-                                    {(() => {
-                                        const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+                                // <span style={{ fontWeight: 200 }}>
+                                //     {/* Dynamic country flag */}
+                                //     <img
+                                //         src={`/assets/images/flags/${api_cn_iso ? api_cn_iso.toLowerCase() : 'global'}.svg`}
+                                //         alt={api_cn_iso ? api_cn_iso : 'UAE'}
+                                //         style={{ width: 24, height: 16, verticalAlign: 'middle', marginRight: 4 }}
+                                //         onError={e => { e.target.onerror = null; e.target.src = '/assets/images/flags/global.svg'; }}
+                                //     />
+                                //     {(() => {
+                                //         const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-                                        if (api_cn_iso === "AE") {
-                                            return OnlineStoreText[api_cn_iso]?.['isoen'] || 'Global';
-                                        }
+                                //         if (api_cn_iso === "AE") {
+                                //             return OnlineStoreText[api_cn_iso]?.['isoen'] || 'Global';
+                                //         }
 
-                                        return OnlineStoreText[api_cn_iso]?.['en'] || 'Global';
-                                    })()}
-                                </span>
+                                //         return OnlineStoreText[api_cn_iso]?.['en'] || 'Global';
+                                //     })()}
+                                // </span>
 
                             </div>
                         </div>
