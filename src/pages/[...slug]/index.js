@@ -15,7 +15,7 @@ import { detect_country } from '@utils/i18n';
 import shortid from 'shortid';
 import { setCookie } from 'cookies-next';
 const site_id = process.env.NEXT_PUBLIC_SITE_ID;
-const local_url = process.env.NEXT_PUBLIC_LOCAL_API_URL;
+const local_url = process.env.NEXT_PUBLIC_LIVE_API_URL;
 
 function ProductList(props) {
 
