@@ -498,10 +498,10 @@ const ShppingProductOverview = (props) => {
               />
             </Col>
           </Row>
-          {slug == 'payment' ? <Row className="delivery_page">
+          {/* {slug == 'payment' ? <Row className="delivery_page">
             {['SAR', 'BHD', 'QAR'].indexOf(shipping_state.header_info.SOH_CCY_CODE) >= 0 ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 7 })}</p> : new Date() >= new Date('2025-06-02') ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 3 })}</p> : ''}
           </Row>
-            : ''}
+            : ''} */}
         </div>
       </div>
     </div>
