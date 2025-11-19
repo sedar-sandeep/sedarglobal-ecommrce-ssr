@@ -101,7 +101,7 @@ export default function DeliveryDays({ status_days, status }) {
     useEffect(() => {
 
         if (status == 'ONDEMAND') {
-            console.log('status_days', status_days, from, to);
+            // console.log('status_days', status_days, from, to);
             let t_date = excludeDatesFun(excludeDates, Number(status_days));
             let { from, to } = checkDayFun(t_date);
             setfday(from);
