@@ -10,7 +10,7 @@ export const middleware = async (request) => {
   const url = nextUrl.clone();
 
   const cfIp = request.headers.get("cf-connecting-ip");
-  let ip = cfIp ?? '';
+  let ip = cfIp ?? '217.165.59.84';
   console.log(cfIp, ip, 'cfIp');
   // console.log('Headers from request:');
   // for (const [key, value] of headers.entries()) {
