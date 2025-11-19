@@ -244,7 +244,7 @@ const Delivery = (props) => {
                                         <span> {t('Plannedshipping', { business_day: parseInt(business_day) + parseInt(measurement_days), delivery_days: parseInt(delivery_days) + parseInt(measurement_days) })}</span>
                                     </p>
 
-                                    {['SAR', 'BHD', 'QAR'].indexOf(shipping_state.header_info.SOH_CCY_CODE) >= 0 ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 7 })}</p> : new Date() >= new Date('2025-06-02') ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 3 })}</p> : ''}
+                                    {/* {['SAR', 'BHD', 'QAR'].indexOf(shipping_state.header_info.SOH_CCY_CODE) >= 0 ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 7 })}</p> : new Date() >= new Date('2025-06-02') ? <p className='pt-2 holiday_cls'>{t('additional_holidays', { days: 3 })}</p> : ''} */}
 
                                     {countryInfo && countryInfo.SCN_DEL_PROMPT_MSG_YN == 'Y' && countryInfo.SCN_DEL_PROMPT_MSG ? <p className='pt-2 holiday_cls'>{parse(countryInfo.SCN_DEL_PROMPT_MSG)}</p> : ''}
                                 </Row>
