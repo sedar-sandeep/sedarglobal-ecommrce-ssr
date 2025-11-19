@@ -36,3 +36,4 @@ yarn.lock
 package-lock.json
 public/robots.txt
 public/robots.txt
+.env
