@@ -11,7 +11,7 @@ export const middleware = async (request) => {
 
   const cfIp = request.headers.get("cf-connecting-ip");
   let ip = cfIp ?? '217.165.59.84';
-  console.log(cfIp, ip, 'cfIp');
+  console.log(cfIp, ip, 'cfIp', request.headers);
   // console.log('Headers from request:');
   // for (const [key, value] of headers.entries()) {
   //   console.log(`${key}: ${value}`);
