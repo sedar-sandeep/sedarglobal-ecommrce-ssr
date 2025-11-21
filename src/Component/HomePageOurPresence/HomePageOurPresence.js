@@ -8,8 +8,6 @@ import { useTranslation } from 'next-i18next';
 import axiosInstance from '@utils/axios';
 import { cn_iso, countryName, detect_country, langName, userId, visitorId } from '@utils/i18n';
 
-const BASE_URL = process.env.REACT_APP_BASE_URL;
-
 
 
 const styles = [
@@ -145,7 +143,7 @@ const HomePageOurPresence = (props) => {
     const siteId = process.env.NEXT_PUBLIC_SITE_ID
 
     await axiosInstance.get(`showroom/fetch?lang=${langName}&site=${process.env.NEXT_PUBLIC_SITE_ID}&country=${countryName}&visitorId=${visitorId}&userId=${userId}&currency=USD&ccy_decimal=2&cn_iso=${cn_iso}&detect_country=${detect_country}`).then(response => {
-      
+
       setShowroom(response.data.result);
       setshowroomDetail(response.data.position);
       var position = [];

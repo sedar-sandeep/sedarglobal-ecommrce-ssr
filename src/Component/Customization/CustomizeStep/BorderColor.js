@@ -9,7 +9,6 @@ import { CustomizationContext } from '../CustomizationProduct';
 import ApiDataService from '../../../services/ApiDataService';
 import { useTranslation } from "next-i18next";
 
-//let base_url = process.env.REACT_APP_BASE_URL;
 let img_path = '/' + "/assets/images/";
 
 const InfoLink = (props) => {

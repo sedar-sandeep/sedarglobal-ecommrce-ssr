@@ -47,7 +47,7 @@ export default function Footer1(props) {
 
     let path_url = `?lang=${langName}&site=${site_id}&country=${countryName}&content=${`contact`}&visitorId=${visitorId}&currency=${ccy_code}&ccy_decimal=${decimalPoints}&cn_iso=${cn_iso}`;
     setLoading_btn(true);
-    fetch(`${process.env.REACT_APP_BASE_URL}user/enquiry${path_url}`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}user/enquiry${path_url}`, {
       method: "POST",
       body: formData
     }).then(response => {

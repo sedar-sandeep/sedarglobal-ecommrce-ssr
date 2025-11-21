@@ -11,8 +11,6 @@ import { VscInfo } from 'react-icons/vsc';
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { ImageComponent, IconComponent } from '@components/image';
-
-//let base_url = process.env.REACT_APP_BASE_URL;
 let img_path = "/assets/images/";
 const item_img_path = process.env.NEXT_PUBLIC_ITEM_IMG_WEBP_PATH + 'laptop/';
 
